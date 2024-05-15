@@ -1,0 +1,31 @@
+body {
+    background-color: #D9D9D9;
+    font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
+}
+nav li {
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    display: inline-block;
+}
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover {
+    text-decoration: underline; 
+    text-decoration-color: #BF6C06;
+}
+nav ul {
+    padding: 20px;
+    padding-left: 550px;
+}
+.active {
+    text-decoration:underline;
+    text-decoration-color: #BF6C06;
+}
+nav {
+    display: none;
+}
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
