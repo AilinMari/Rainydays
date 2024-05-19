@@ -83,52 +83,44 @@ header {
 
 }
 
-footer h4 {
-    padding: auto;
-    display: inline;
-    position: static;
-    float: right;
-    padding-right: 100px;
+footer {
+    background-color: #475459;
+    padding: 30px;
+    text-align: left;
+    height: 150px;
+}
+ 
+.footer-content {
+    display: flex;
+    justify-content: flex-end;
     font-family: 'Roboto Condensed',verdana,'san serif';
-
 }
-
-footer div {
-    font-family: 'Roboto Condensed',verdana,'san serif';
-    float: left;
-    padding-left: 110px;
-    margin: -60px; 
-    position: absolute;  
+ 
+.help {
+    display: flex;
+    gap: 60px;
+    
 }
-
-footer
-{
-    background: #475459;
-    width: auto;
-    height: 200px;
-   
-}
-footer h4 {
-    display: inline;
-    float: right;
-    margin: 25px;
-}
-
-footer h4::after {
-    content: '';
-    clear: both;
-    display: table;
-}
-
-footer li {
-    font-family: 'Roboto Condensed',verdana,'san serif';
-    font-weight: bold;
-    }
-
-footer p {
-    padding-top: 60px;
+ 
+.helps {
+    text-align: left;
     
     
-}    
+}
+ 
+.helps p {
+    margin: 0 0 5px;
+    
+}
+
+.follow p {
+    margin: 0 0 5px;
+    
+}
+
+
+
+
+
 
 
