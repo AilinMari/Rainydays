@@ -82,3 +82,53 @@ header {
     }
 
 }
+
+footer h4 {
+    padding: auto;
+    display: inline;
+    position: static;
+    float: right;
+    padding-right: 100px;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+
+}
+
+footer div {
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    float: left;
+    padding-left: 110px;
+    margin: -60px; 
+    position: absolute;  
+}
+
+footer
+{
+    background: #475459;
+    width: auto;
+    height: 200px;
+   
+}
+footer h4 {
+    display: inline;
+    float: right;
+    margin: 25px;
+}
+
+footer h4::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+footer li {
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    font-weight: bold;
+    }
+
+footer p {
+    padding-top: 60px;
+    
+    
+}    
+
+
