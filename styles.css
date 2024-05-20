@@ -78,10 +78,13 @@ header {
     }
 
     img {
-        width: 100%;
+        width: 160px;
+           
     }
 
 }
+
+
 
 footer {
     background-color: #475459;
