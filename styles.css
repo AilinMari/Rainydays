@@ -287,8 +287,8 @@ main img {
     
 }
 
-main p {
-    display: inline-block;
+ul a {
+    font-weight: bold;
 }
 
 
