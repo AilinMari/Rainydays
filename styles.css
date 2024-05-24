@@ -128,40 +128,33 @@ main div {
     display: flex;
     gap: 30px;
     background-color: darkslategray;
-    height: 200px;
+    height: 300px;
     width: 50%;
-    font-size: 1em;
     font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
     color: #fff;
-    padding: 30px;
     margin-bottom: 100px;
-
-    
+    margin-top: 20px;
+    padding: 20px;   
 }
+
+
 
 products {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
- 
-.Monsen {
-    text-align: left;
-    font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
-    font-size: 2em;
-    padding-left: 10px;
-    
-    
-    
-}
-
-
+ .read-more-box a { 
+   background-color: darkslategray;
+    color: #fff;
+ }
  
 .Monsen p {
     margin: 3px;
-    max-width: 200px;   
-    padding-bottom: 50px;
+    max-width: 300px;   
+    padding-bottom: 10px;
     
 }
 
@@ -169,7 +162,6 @@ products {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-top: 0px;
     display: flex;
     object-fit: cover;
     object-position: center;
@@ -177,19 +169,26 @@ products {
     border-radius: 50%;
 }
 
-.Tusna {
+products h4 {
+    position: flex;
     text-align: left;
     font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
-    font-size: 24px;
+    font-size: 2em;
     padding-left: 10px;
-    margin-bottom: 50px;
     
+    
+}
+
+products p {
+font-size: 18px;
+
+
 }
 
 .Tusna p {
     margin: 3px;
     max-width: 300px;   
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     
 }
 
@@ -197,10 +196,10 @@ products {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-top: 0px;
     display: flex;
     object-fit: cover;
     object-position: center;
+    float: right;
 }
 
 
@@ -271,8 +270,9 @@ main img {
 .footer-bottom {
     margin-top: 150px;
     font-size: small;
-    display: inline-block;
-    margin-right: 1100px;
+    display: inline;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    color: #ffffff;
     position: absolute;
 
 }
