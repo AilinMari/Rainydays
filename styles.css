@@ -67,6 +67,7 @@ header {
 
 
 
+
 @media (min-width: 600px) {
     nav {
         display: block;
@@ -151,14 +152,14 @@ products {
     color: #fff;
  }
  
-.Monsen p {
+.monsen p {
     margin: 3px;
     max-width: 300px;   
     padding-bottom: 10px;
     
 }
 
-.Monsen-image {
+.monsen-image {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -285,6 +286,11 @@ main img {
 
     
 }
+
+main p {
+    display: inline-block;
+}
+
 
 
 
