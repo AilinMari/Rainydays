@@ -23,13 +23,21 @@ nav ul {
     padding: 20px;
     
 }
+
+button {
+    display: inline-block;
+    margin-left: 30px;
+    color: #000;
+    font-size: large;
+    
+}
 .active {
     text-decoration:underline;
     text-decoration-color: #BF6C06;
 }
 nav {
     display: none;
-    position: absolute;
+    position: relative;
     background-color: #475459;
 }
 
@@ -38,6 +46,7 @@ header {
 }
 #menu-checkbox:checked ~ nav {
     display: block;
+   
 }
  
 .menu-icon {
@@ -59,11 +68,23 @@ header {
     width: 100%;
     object-fit: cover;
     object-position: center;
-    position: sticky;
+    
 
 }
 
+nav img {
+    width: 110px;
+    float: inline-start;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: none;
 
+       
+}
+
+main div {
+    position: relative;
+}
 
 
 
@@ -102,6 +123,13 @@ header {
            
     }
 
+    button {
+        float: right;
+        margin-left: 30px;
+        color: #000;
+        font-size: large;
+        
+    }
 }
 
 
@@ -123,6 +151,7 @@ main div {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
  
 .popular-products {
@@ -130,7 +159,7 @@ main div {
     gap: 30px;
     background-color: darkslategray;
     height: 300px;
-    width: 50%;
+    width: 80%;
     font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
     color: #fff;
     margin-bottom: 100px;
@@ -150,8 +179,15 @@ products {
  .read-more-box a { 
    background-color: darkslategray;
     color: #fff;
+    text-decoration: overline underline 2px;
+    
  }
  
+ .read-more-boxn a {
+    background-color: darkslategray;
+    color: #fff;
+    
+ }
 .monsen p {
     margin: 3px;
     max-width: 300px;   
@@ -160,15 +196,18 @@ products {
 }
 
 .monsen-image {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     display: flex;
     object-fit: cover;
     object-position: center;
-    background-color: #fff;
     border-radius: 50%;
 }
+
+
+
+
 
 products h4 {
     position: flex;
@@ -176,6 +215,7 @@ products h4 {
     font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
     font-size: 2em;
     padding-left: 10px;
+
     
     
 }
@@ -194,13 +234,13 @@ font-size: 18px;
 }
 
 .Tusna-image {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     display: flex;
     object-fit: cover;
-    object-position: center;
     float: right;
+    
 }
 
 
@@ -287,18 +327,28 @@ main img {
     
 }
 
-ul a {
+ main ul {
     font-weight: bold;
+    font-size: large;
+    justify-content: left;
+    gap: 30px;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    text-decoration: none;
+
 }
 
+main a {
+    color: #000;
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: #000;
+    
+    
+}
+.activen {
+    color: #BF6C06;
+}
 
-
-
-
-
-
-
-
-
-
-
+body {
+    object-position: center;
+}
