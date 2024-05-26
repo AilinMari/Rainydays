@@ -181,7 +181,8 @@ products {
  .read-more-box a { 
    background-color: darkslategray;
     color: #fff;
-    padding: 25px;
+    padding: 6px;
+    
     
     
  }
@@ -396,20 +397,30 @@ main img {
     font-weight: bold;
     font-size: large;
     justify-content: left;
+    margin-left: 40px;
     gap: 30px;
     font-family: 'Roboto Condensed',verdana,'san serif';
     text-decoration: none;
+    
 
 }
 
 main a {
     color: #000;
     text-decoration: none;
-    text-decoration: underline;
-    text-decoration-color: #000;
     
     
 }
+
+.oversikt-linje hr {
+    height: 2px;
+    border: none;
+    background-color: #000;
+    
+}
+
+
+
 .activen {
     color: #BF6C06;
 }
