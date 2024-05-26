@@ -137,12 +137,14 @@ main div {
 main h3 {
     background:orange;
     display: flex;
+    margin-top: 70px;
+    margin-bottom: 50px;
     height: 20px;
     text-align: center;
     padding: 20px;
     justify-content: center;
-    width: 50%;
-    border-radius: 7px 7px 7px 7px;
+    width: 85%;
+    border-radius: 10px 10px 10px 10px;
     color: #023059;
     
 }
@@ -159,7 +161,7 @@ main div {
     gap: 30px;
     background-color: darkslategray;
     height: 300px;
-    width: 80%;
+    width: 70%;
     font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
     color: #fff;
     margin-bottom: 100px;
@@ -179,13 +181,17 @@ products {
  .read-more-box a { 
    background-color: darkslategray;
     color: #fff;
-    text-decoration: overline underline 2px;
+    padding: 25px;
+    
     
  }
  
  .read-more-boxn a {
     background-color: darkslategray;
     color: #fff;
+    padding: 5px;
+    
+    
     
  }
 .monsen p {
@@ -243,7 +249,70 @@ font-size: 18px;
     
 }
 
+.doggo-image {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+  
+}
 
+.mountain-hike {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+   
+}
+
+.sitting-rock {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    
+}
+
+hr {
+    background-color: orange;
+    height: 2px;
+    border: none;
+    margin-bottom: 50px;
+    width: 85%;    
+}
+
+.inspo-quote p {
+    font-size: large;
+    max-width: 310px;
+    max-height: 250px;
+    text-align: center;
+    font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
+    font-weight: bold;
+    color: #023059;
+    
+}
+
+.inspo-quote {
+    justify-content: center;
+    align-items: center;
+    object-position: center;
+    display: flexbox;
+    
+    
+}
+
+.inspo-underline hr {
+    width: 310px;
+    justify-content: center;
+    align-items: center;
+    object-position: center;
+    
+}
+
+.theme-photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-position: center;
+    margin-bottom: 100px;
+}
 
 footer {
     background-color: #475459;
@@ -318,13 +387,9 @@ main img {
 
 }
 
-.pyntelinje {
-    border-bottom: 2px dashed #fff;
-    width: 100%;
-    display: flex;
-    margin-top: 150px;
-
-    
+.footer-linje hr {
+    background-color: #fff;
+    height: 1px;
 }
 
  main ul {
