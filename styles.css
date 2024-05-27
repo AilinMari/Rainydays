@@ -2,31 +2,30 @@ body {
     background-color: #D9D9D9;
     font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
 }
-nav li {
-    font-family: 'Roboto Condensed',verdana,'san serif';
-    
-}
-nav li {
+
+nav {
     color: #000;
     text-decoration: none;
     padding: 20px;
-    padding-right: 80px;
     display: block;
     font-weight: bold;
+    font-family: 'Roboto Condensed',verdana,'san serif';
     
 }
 nav li:hover {
     text-decoration: underline; 
     text-decoration-color: #BF6C06;
 }
-nav ul {
+nav li {
     padding: 20px;
+    padding-left: 100px;
+    
     
 }
 
 link {
     display: inline-block;
-    margin-left: 60px;
+    float: right;
     color: #000;
     size: large;
     background-color: #475459;
@@ -98,7 +97,7 @@ main img {
 @media (min-width: 600px) {
     nav {
         display: block;
-        position: static;
+        position: relative;
         background-color: #fff;
         
 
@@ -115,17 +114,18 @@ main img {
         align-items: center;
 
     }
-    ul {
+    li {
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 60px;
        
     }
 
     nav img {
         width: 110px;
-        float: inline-start;
-        margin-top: 20px;
+        float: left;
+        margin-top: 0px;
         margin-left: 20px;
         display: flex;
         
