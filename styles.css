@@ -29,7 +29,8 @@ button {
     margin-left: 30px;
     color: #000;
     font-size: large;
-    background-color: #475459
+    background-color: #475459;
+    border: none;
     
 }
 .active {

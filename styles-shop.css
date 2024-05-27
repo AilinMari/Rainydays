@@ -3,6 +3,7 @@
     font-size: large;
     font-family: 'Roboto Condensed',verdana,'san serif';
     text-decoration: none;
+    
 
 }
 
@@ -22,6 +23,7 @@
 }
 
 nav ul {
+
 }
 
 .nav-line {
@@ -72,8 +74,12 @@ main {
     width: 300px;
     height: 300px;
     object-fit: cover;
-    border-radius: 50%
+    border-radius: 50%;
+    position: relative;
+
 }
+
+
 
 .heltind-expedition1 {
    width: 300px;
