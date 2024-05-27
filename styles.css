@@ -12,24 +12,25 @@ nav {
     font-family: 'Roboto Condensed',verdana,'san serif';
     
 }
-nav li:hover {
+nav a:hover {
     text-decoration: underline; 
     text-decoration-color: #BF6C06;
 }
-nav li {
-    padding: 20px;
-    padding-left: 100px;
+nav a {
+    padding-bottom: 20px;
+    display: block;
+
     
     
 }
 
 link {
-    display: inline-block;
-    float: right;
+    display: inline;
     color: #000;
     size: large;
     background-color: #475459;
     border: none;
+    padding: 20px;
 
     
 }
@@ -112,6 +113,7 @@ main img {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 20px;
 
     }
     li {
@@ -135,7 +137,7 @@ main img {
 
     link {
         float: right;
-        margin-left: 30px;
+
         color: #000;
         font-size: large;
         background-color: #fff;
