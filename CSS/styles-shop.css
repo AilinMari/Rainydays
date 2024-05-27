@@ -1,0 +1,266 @@
+
+.home a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+    
+}
+.shop a {
+    margin-left: 10px;
+}
+
+
+.navi-line {
+    font-weight: bold;
+    display: inline-block;
+    font-size: large;
+    margin-left: 40px;
+    gap: 10px;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    text-decoration: none;
+    margin-top: 30px;
+    
+
+}
+
+.oversikt-linje { 
+    width: 60%;
+}
+
+header hr {
+    height: 2px;
+    border: none;
+    background-color: #000;  
+}
+.activen {
+    color: #BF6C06;
+}
+
+main {
+    display: flex;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.row1 {
+    background-color: darkslategray;
+    border-radius: 20px 20px 20px 20px;
+    width: 1100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    object-position: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    flex: 1;
+    
+    
+}
+
+.monsen3 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+
+
+.heltind-expedition1 {
+   width: 300px;
+   height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+.row1 p {
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    color: #ffffff;
+    max-width: 300px;
+    max-height: 300px;
+    padding: 20px;
+    
+   
+}
+
+.row1 h2 {
+    font-size: 2em;
+    color: #ffffff;
+    border-radius: 7px 7px 7px 7px;
+    text-decoration: underline orange;
+
+}
+
+.head-info {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.monsen3-head {
+    margin-right: 55px;
+    
+}
+
+.heltind-expedition1-head {
+    margin-left: 0px;
+    text-align: center;
+    display: inline;
+    width: 300px;
+}
+
+.row2 {
+    background-color: darkslategray;
+    border-radius: 20px 20px 20px 20px;
+    width: 1100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    object-position: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    flex: 2;
+    
+    
+}
+
+.tusna2 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+
+
+.bjørko4 {
+    width: 300px;
+    height: 300px;
+     object-fit: cover;
+     border-radius: 50%;
+     
+ }
+ 
+
+ 
+ .row2 p {
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    color: #ffffff;
+    max-width: 300px;
+    max-height: 300px;
+    padding: 20px;
+    margin-top: -20px;
+    
+   
+}
+
+.row2 h2 {
+    font-size: 2em;
+    color: #ffffff;
+    border-radius: 7px 7px 7px 7px;
+    text-decoration: underline orange;
+
+}
+
+
+.row3 {
+    background-color: darkslategray;
+    border-radius: 20px 20px 20px 20px;
+    width: 1100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    object-position: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    flex: 3;
+    
+    
+}
+
+.tøffen5 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.larsen6 {
+    width: 300px;
+    height: 300px;
+     object-fit: cover;
+     border-radius: 50%;
+     
+ }
+
+ .row3 p {
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    color: #ffffff;
+    max-width: 300px;
+    max-height: 300px;
+    padding: 20px;
+    
+   
+}
+
+.row3 h2 {
+    font-size: 2em;
+    color: #ffffff;
+    border-radius: 7px 7px 7px 7px;
+    text-decoration: underline orange;
+
+}
+
+.row4 {
+    background-color: darkslategray;
+    border-radius: 20px 20px 20px 20px;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    object-position: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    flex: 4;
+    
+    
+}
+
+.trollet7 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+
+ .row4 p {
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    color: #ffffff;
+    max-width: 300px;
+    max-height: 300px;
+    padding: 20px;
+    
+   
+}
+
+.row4 h2 {
+    font-size: 2em;
+    color: #ffffff;
+    border-radius: 7px 7px 7px 7px;
+    text-decoration: underline orange;
+
+}
