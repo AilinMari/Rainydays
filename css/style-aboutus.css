@@ -4,10 +4,6 @@
     color: darkslategray;
     
 }
-.shop a {
-    margin-left: 0px;
-}
-
 
 .navi-line {
     font-weight: bold;
@@ -18,8 +14,6 @@
     font-family: 'Roboto Condensed',verdana,'san serif';
     text-decoration: none;
     margin-top: 30px;
-    
-
 }
 
 .oversikt-linje { 
@@ -33,9 +27,8 @@ header hr {
 }
 .activen {
     color: #BF6C06;
+    text-decoration: none;
 }
-
-
 
 .big-logo {
     width: 60%;
@@ -43,51 +36,51 @@ header hr {
     margin-top: 50px;
 }
 
- content img {
+ section img {
     width: 1410px;
     height: 400px;
     object-fit: cover;
     object-position: top;
     position: absolute;
-    
-
 }
 
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
 .who-are-we {
     font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
-    font-size: 2em;
-    
+    font-size: 2em; 
+    max-width: 600px;
 }
 
 .text-about-us p {
     font-family: 'Roboto Condensed',verdana,'san serif';
-    font-size: 1em; 
+    font-size: 18px; 
     max-width: 600px;
-    
 }
 
 .about-rainydays {
-margin: 70px;
-   
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 70px;
 }
 
 .people-hiking {
     max-width: 600px;
-    margin: 0px;
+    margin-top: 50px;
 }
 
 .about-rainydays img {
     float: right;
-    position: relative;
    
 }
-
-
-
-
-
-
-
 
 .jacket-design {
     font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
@@ -97,32 +90,25 @@ margin: 70px;
 
 .text-about-jacket-design p {
     font-family: 'Roboto Condensed',verdana,'san serif';
-    font-size: 1em; 
-    max-width: 600px;
-    
+    font-size: 18px; 
+    max-width: 500px;
 }
 
 .our-jacket-design {
-margin: 70px;
-margin-top: 150px;
-margin-bottom: 190px;
-   
+    margin-left: 70px;
+    margin-bottom: 140px;
 }
 
 .top-ofthe-mountain {
     max-width: 600px;
-    margin: 0px;
+    margin-right: 70px;
+    margin-top: 70px;
 }
 
 .our-jacket-design img {
     float: right;
     position: relative;
-   
 }
-
-
-
-
 
 body {
     background-color: #D9D9D9;
@@ -145,8 +131,6 @@ nav a {
     color: #000;
     text-decoration: none;   
 }
-
-
 
 .active {
     text-decoration:underline;
@@ -180,14 +164,6 @@ header {
     display: none;
 }
 
-.banner-image {
-    height: 500px;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-    
-
-}
 
 nav img {
     width: 110px;
@@ -205,9 +181,6 @@ main div {
 main img {
     position: relative;
 }
-
-
-
 
 @media (min-width: 600px) {
     nav {
@@ -251,7 +224,6 @@ main img {
 
     link {
         float: right;
-
         color: #000;
         font-size: large;
         background-color: #fff;
