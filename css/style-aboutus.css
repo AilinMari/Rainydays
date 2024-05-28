@@ -31,33 +31,75 @@ header hr {
 }
 
 .big-logo {
-    width: 60%;
+    max-width: 1400px;
     opacity: 60%;
     margin-top: 50px;
 }
 
  section img {
-    width: 1410px;
-    height: 400px;
+    width: 800px;
     object-fit: cover;
     object-position: top;
-    position: absolute;
 }
 
 section {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 main {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
 }
+.about-rainydays {
+    background-color: darkslategray;
+    width: 80rem;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    flex: 1;
+}
+
 .who-are-we {
     font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
     font-size: 2em; 
+    max-width: 1400px;
+}
+
+main p {
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    font-size: 18px;
+    background-color: #BF6C06;
+    width: 600px; 
+   
+}
+
+main img {
+    float: right;
+}
+
+.people-hiking {
     max-width: 600px;
+    float: right;
+}
+
+.our-jacket-design {
+    background-color: darkslategray;
+    width: 80rem;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    flex: 2;
+}
+
+/* .who-are-we {
+    font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
+    font-size: 2em; 
+    max-width: 1400px;
 }
 
 .text-about-us p {
@@ -67,48 +109,48 @@ main {
 }
 
 .about-rainydays {
-    margin-left: 70px;
-    margin-right: 70px;
+    background-color: darkslategray;
+    max-width: 50rem;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 70px;
     margin-bottom: 70px;
-}
+    flex: 1;
+} */
 
-.people-hiking {
-    max-width: 600px;
-    margin-top: 50px;
-}
 
-.about-rainydays img {
+
+/* .about-rainydays img {
     float: right;
    
-}
+} */
 
-.jacket-design {
+/* .jacket-design {
     font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
     font-size: 2em;
     
-}
+} */
 
-.text-about-jacket-design p {
+/* .text-about-jacket-design p {
     font-family: 'Roboto Condensed',verdana,'san serif';
     font-size: 18px; 
     max-width: 500px;
-}
+} */
 
-.our-jacket-design {
+/* .our-jacket-design {
     margin-left: 70px;
     margin-bottom: 140px;
-}
+} */
 
 .top-ofthe-mountain {
     max-width: 600px;
-    margin-right: 70px;
-    margin-top: 70px;
+
+    float: right;
 }
 
-.our-jacket-design img {
+/* .our-jacket-design img {
     float: right;
     position: relative;
-}
+} */
 
 body {
     background-color: #D9D9D9;
@@ -174,13 +216,14 @@ nav img {
        
 }
 
-main div {
-    position: relative;
-}
+/* main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline; 
+} */
 
-main img {
-    position: relative;
-}
+
 
 @media (min-width: 600px) {
     nav {
