@@ -1,0 +1,336 @@
+.home a {
+    margin-right: 0px;
+    text-decoration: none;
+    color: darkslategray;
+    
+}
+.shop a {
+    margin-left: 0px;
+}
+
+
+.navi-line {
+    font-weight: bold;
+    display: inline-block;
+    font-size: large;
+    margin-left: 30px;
+    gap: 0px;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    text-decoration: none;
+    margin-top: 30px;
+    
+
+}
+
+.oversikt-linje { 
+    width: 60%;
+}
+
+header hr {
+    height: 2px;
+    border: none;
+    background-color: darkslategray;  
+}
+.activen {
+    color: #BF6C06;
+}
+
+
+
+.big-logo {
+    width: 60%;
+    opacity: 60%;
+    margin-top: 50px;
+}
+
+ content img {
+    width: 1410px;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    
+
+}
+
+.who-are-we {
+    font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
+    font-size: 2em;
+    
+}
+
+.text-about-us p {
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    font-size: 1em; 
+    max-width: 600px;
+    
+}
+
+.about-rainydays {
+margin: 70px;
+   
+}
+
+.people-hiking {
+    max-width: 600px;
+    margin: 0px;
+}
+
+.about-rainydays img {
+    float: right;
+    position: relative;
+   
+}
+
+
+
+
+
+
+
+
+.jacket-design {
+    font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
+    font-size: 2em;
+    
+}
+
+.text-about-jacket-design p {
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    font-size: 1em; 
+    max-width: 600px;
+    
+}
+
+.our-jacket-design {
+margin: 70px;
+margin-top: 150px;
+margin-bottom: 190px;
+   
+}
+
+.top-ofthe-mountain {
+    max-width: 600px;
+    margin: 0px;
+}
+
+.our-jacket-design img {
+    float: right;
+    position: relative;
+   
+}
+
+
+
+
+
+body {
+    background-color: #D9D9D9;
+    font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
+}
+
+nav {
+    padding: 20px;
+    display: block;
+    font-weight: bold;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    }
+nav a:hover {
+    text-decoration: underline; 
+    text-decoration-color: #BF6C06;
+}
+nav a {
+    padding-bottom: 20px;
+    display: block;
+    color: #000;
+    text-decoration: none;   
+}
+
+
+
+.active {
+    text-decoration:underline;
+    text-decoration-color: #BF6C06;
+}
+nav {
+    display: none;
+    position: absolute;
+    background-color: #475459;
+}
+
+header {
+    position: relative;
+}
+#menu-checkbox:checked ~ nav {
+    display: block;
+   
+}
+ 
+.menu-icon {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+}
+ 
+.menu-icon i {
+    font-size: 24px;
+}
+ 
+#menu-checkbox {
+    display: none;
+}
+
+.banner-image {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+
+}
+
+nav img {
+    width: 110px;
+    float: inline-start;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: none;
+       
+}
+
+main div {
+    position: relative;
+}
+
+main img {
+    position: relative;
+}
+
+
+
+
+@media (min-width: 600px) {
+    nav {
+        display: block;
+        position: relative;
+        background-color: #fff;
+        
+
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    nav a {
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+    }
+    li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+       
+    }
+
+    nav img {
+        width: 110px;
+        float: left;
+        margin-top: 0px;
+        margin-left: 20px;
+        display: flex;
+        
+    
+           
+    }
+
+    link {
+        float: right;
+
+        color: #000;
+        font-size: large;
+        background-color: #fff;
+        border: none;
+        
+    }
+}
+
+footer {
+    background-color: #475459;
+    padding: 30px;
+    text-align: left;
+    height: 180px;
+    width: 100%;
+}
+ 
+.footer-content {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    color: #ffffff;
+    margin-right: 200px;
+    
+   
+    
+}
+
+footer img {
+    width: 1410px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    
+    
+}
+ 
+.help {
+    display: flex;
+    gap: 140px;
+    
+    
+}
+ 
+.helps {
+    text-align: left;
+    
+    
+}
+ 
+.helps p {
+    margin: 0 0 5px;
+    
+}
+
+.follow p {
+    margin: 0 0 5px;
+    
+}
+
+.follow {
+    text-align: left;
+}
+
+
+
+.footer-bottom {
+    margin-top: 150px;
+    font-size: small;
+    display: inline;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    color: #ffffff;
+    position: absolute;
+
+}
+
+.footer-linje hr {
+    background-color: #fff;
+    height: 1px;
+    margin-top: 20px;
+}
+

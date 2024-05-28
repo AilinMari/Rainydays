@@ -1,12 +1,12 @@
 
 .home a {
-    margin-right: 10px;
+    margin-right: 0px;
     text-decoration: none;
-    color: #000;
+    color: darkslategray;
     
 }
 .shop a {
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 
@@ -14,8 +14,8 @@
     font-weight: bold;
     display: inline-block;
     font-size: large;
-    margin-left: 40px;
-    gap: 10px;
+    margin-left: 30px;
+    gap: 0px;
     font-family: 'Roboto Condensed',verdana,'san serif';
     text-decoration: none;
     margin-top: 30px;
@@ -30,7 +30,7 @@
 header hr {
     height: 2px;
     border: none;
-    background-color: #000;  
+    background-color: darkslategray;  
 }
 .activen {
     color: #BF6C06;
@@ -38,58 +38,59 @@ header hr {
 
 main {
     display: flex;
-    display: block;
     justify-content: center;
     align-items: center;
-    
-    
-    
+    flex-direction: column;
+      
 }
 
 .row1 {
     background-color: darkslategray;
-    border-radius: 20px 20px 20px 20px;
-    width: 1100px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    object-position: center;
+    max-width: 50rem;
+    border-radius: 10px 10px 10px 10px;
     margin-top: 70px;
     margin-bottom: 70px;
     flex: 1;
     
     
 }
-
-.monsen3 {
-    width: 300px;
+.image-row1 img {
     height: 300px;
-    object-fit: cover;
+    width: auto;
     border-radius: 50%;
-    position: relative;
-
 }
 
 
-
 .heltind-expedition1 {
-   width: 300px;
-   height: 300px;
+
+    height: 300px;
+    width: auto;
     object-fit: cover;
     border-radius: 50%;
-    
+     
+ }
+
+ .heltind-expedition1-head {
+    width: 300px;
+    margin-right: 5px; 
+    margin-left: 5px; 
+}
+
+.monsen3-head {
+    margin-right: 30px; 
+    margin-left: 10px;  
 }
 
 .row1 p {
     font-family: 'Roboto Condensed',verdana,'san serif';
     color: #ffffff;
-    max-width: 300px;
-    max-height: 300px;
-    padding: 20px;
+    width: 200px;
+    height: 100px;
+    text-align: left;
+    
     
    
 }
-
 .row1 h2 {
     font-size: 2em;
     color: #ffffff;
@@ -104,63 +105,48 @@ main {
     padding: 20px;
 }
 
-.monsen3-head {
-    margin-right: 55px;
-    
-}
-
-.heltind-expedition1-head {
-    margin-left: 0px;
-    text-align: center;
-    display: inline;
-    width: 300px;
-}
 
 .row2 {
     background-color: darkslategray;
-    border-radius: 20px 20px 20px 20px;
-    width: 1100px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    object-position: center;
+    max-width: 50rem;
+    border-radius: 10px 10px 10px 10px;
     margin-top: 70px;
     margin-bottom: 70px;
     flex: 2;
-    
-    
-}
+    }
 
-.tusna2 {
-    width: 300px;
+.image-row2 img {
     height: 300px;
-    object-fit: cover;
+    width: auto;
     border-radius: 50%;
-    position: relative;
-
 }
-
-
+    
 
 .bjørko4 {
-    width: 300px;
-    height: 300px;
-     object-fit: cover;
-     border-radius: 50%;
-     
- }
+   height: 300px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 50%;
+     }
  
 
  
  .row2 p {
     font-family: 'Roboto Condensed',verdana,'san serif';
     color: #ffffff;
-    max-width: 300px;
-    max-height: 300px;
-    padding: 20px;
-    margin-top: -20px;
-    
-   
+    width: 200px;
+    height: 100px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.tusna2-head {
+    margin-right: 30px;   
+}
+
+.bjørko4-head {
+    margin-right: 30px; 
+    margin-left: 30px;  
 }
 
 .row2 h2 {
@@ -174,12 +160,8 @@ main {
 
 .row3 {
     background-color: darkslategray;
-    border-radius: 20px 20px 20px 20px;
-    width: 1100px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    object-position: center;
+    max-width: 50rem;
+    border-radius: 10px 10px 10px 10px;
     margin-top: 70px;
     margin-bottom: 70px;
     flex: 3;
@@ -187,29 +169,28 @@ main {
     
 }
 
-.tøffen5 {
-    width: 300px;
+.image-row3 img {
     height: 300px;
+    width: auto;
     object-fit: cover;
     border-radius: 50%;
-    position: relative;
 
 }
 
 .larsen6 {
-    width: 300px;
-    height: 300px;
-     object-fit: cover;
-     border-radius: 50%;
-     
- }
+  height: 300px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 50%;
+     }
 
  .row3 p {
     font-family: 'Roboto Condensed',verdana,'san serif';
     color: #ffffff;
-    max-width: 300px;
-    max-height: 300px;
-    padding: 20px;
+    width: 200px;
+    height: 100px;
+    text-align: left;
+    margin-left: 20px;
     
    
 }
@@ -224,25 +205,19 @@ main {
 
 .row4 {
     background-color: darkslategray;
-    border-radius: 20px 20px 20px 20px;
-    width: 550px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    object-position: center;
+    max-width: 25rem;
+    border-radius: 10px 10px 10px 10px;
     margin-top: 70px;
     margin-bottom: 70px;
-    flex: 4;
-    
-    
+    flex: 4;  
 }
 
-.trollet7 {
-    width: 300px;
+.image-row4 img {
     height: 300px;
+    width: auto;
     object-fit: cover;
     border-radius: 50%;
-    position: relative;
+    margin-right: 20px;
 
 }
 
@@ -250,9 +225,10 @@ main {
  .row4 p {
     font-family: 'Roboto Condensed',verdana,'san serif';
     color: #ffffff;
-    max-width: 300px;
-    max-height: 300px;
-    padding: 20px;
+    width: 200px;
+    height: 100px;
+    text-align: left;
+    margin-right: 160px;
     
    
 }
@@ -262,5 +238,6 @@ main {
     color: #ffffff;
     border-radius: 7px 7px 7px 7px;
     text-decoration: underline orange;
+    margin-right: 200px;
 
 }
