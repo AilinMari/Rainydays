@@ -10,6 +10,9 @@ nav {
     display: block;
     font-weight: bold;
     font-family: 'Roboto Condensed',verdana,'san serif';
+    display: none;
+    position: relative;
+    background-color: #475459
 }
 
 nav a:hover {
@@ -35,11 +38,11 @@ link {
     text-decoration:underline;
     text-decoration-color: #BF6C06;
 }
-nav {
+/* nav {
     display: none;
     position: relative;
     background-color: #475459;
-}
+} */
 /* issues with the list icon showing up in the hamburger menu */
 
 header {
@@ -122,7 +125,7 @@ nav img {
 }
 
 .pop-banner h1 {
-    background-color:orange;
+    background-color:orange; 
     max-width: 50rem;
     border-radius: 10px 10px 10px 10px;
     color: #023059;
@@ -133,6 +136,7 @@ nav img {
     margin: 70px; 
     margin-top: 110px;
 }
+/* se om det finner kode til gradianten i figma */
 
 main div {
     display: flex;
