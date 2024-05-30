@@ -95,6 +95,8 @@ nav img {
         justify-content: center;
         align-items: center;
         padding: 20px;
+        color: #000;
+        text-decoration: none;
     }
 
     nav div {
