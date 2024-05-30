@@ -63,14 +63,7 @@ header {
     display: none;
 }
 
-.banner-image {
-    height: 500px;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-    
 
-}
 
 nav img {
     width: 110px;
@@ -128,12 +121,7 @@ nav img {
         background-color: #fff;
         border: none;
     }
-    main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: inherit;    
-    }
+
 }
 
 .home a {

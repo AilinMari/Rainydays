@@ -40,6 +40,7 @@ nav {
     position: relative;
     background-color: #475459;
 }
+/* issues with the list icon showing up in the hamburger menu */
 
 header {
     position: relative;
@@ -273,6 +274,7 @@ footer {
     height: 180px;
     width: 100%;
 }
+/* issues with the width */
  
 .footer-content {
     display: flex;

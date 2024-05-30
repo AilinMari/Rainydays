@@ -181,6 +181,22 @@ legend {
     font-size: 2rem;
 }
 
+button {
+    border-radius: 50%;
+    border: 1px solid;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.quantity-button{
+    width: 3rem;
+    border-radius: 15px 15px 15px 15px;
+    text-align: center;
+    border: 2px solid;
+}
+
 
 
 
