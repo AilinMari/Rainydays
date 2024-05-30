@@ -1,3 +1,120 @@
+
+body {
+    background-color: #D9D9D9;
+    font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
+}
+
+nav {
+    display: block;
+    position: absolute;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    color: #000;
+    top: 35px;
+    left: 10px;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    background-color: #475459;
+}
+
+nav a:hover {
+    text-decoration: underline; 
+    text-decoration-color: #BF6C06;
+
+}
+nav a {
+    padding-bottom: 20px;
+    display: block; 
+    color: #000;
+    text-decoration: none;  
+}
+
+
+.active {
+    text-decoration:underline;
+    text-decoration-color: #BF6C06;
+}
+
+header {
+    position: relative;
+}
+
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+ 
+.menu-icon {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+}
+ 
+.menu-icon i {
+    font-size: 24px;
+}
+ 
+
+nav img {
+    width: 110px;
+    float: inline-start;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: none;    
+}
+
+@media (min-width: 600px) {
+    nav {
+        display: inline-block;
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        padding: 20px 0 20px 0;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    nav a {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        color: #000;
+        text-decoration: none;
+    }
+
+    nav div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        
+    }
+
+    nav img {
+        width: 110px;
+        float: left;
+        margin-top: 0px;
+        margin-left: 20px;
+        display: flex;       
+    }
+
+    link {
+        float: right;
+        color: #000;
+        font-size: large;
+        background-color: #fff;
+        border: none;   
+    }
+}
+
 .home a {
     margin-right: 0px;
     text-decoration: none;
@@ -15,6 +132,11 @@
     margin-top: 30px;
 }
 
+.navi-line div {
+    display: inline;
+    margin-right: 30px;
+}
+
 .oversikt-linje { 
     width: 60%;
 }
@@ -29,14 +151,29 @@ header hr {
     text-decoration: none;
 }
 
+section {
+    display: flex;
+    justify-content: center;
+    object-fit: scale-down;
+}
+
 .big-logo {
+    max-width: 400px;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 70px;
+
+}
+
+
+/* .big-logo {
     max-width: 600px;
-    opacity: 60%;
     margin-top: 50px;
     object-fit: cover;
     object-position: top;
     flex-wrap: wrap;
     object-fit: scale-down;
+    background-color: #BF6C06;
 }
 
 
@@ -45,9 +182,10 @@ section {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    opacity: 60%;
 
 
-}
+} */
 
 main {
     display: flex;
@@ -111,131 +249,14 @@ main p {
       flex-wrap: wrap;  
     }
 
-    section {
+    section img {
         flex-wrap: wrap;
         object-fit: scale-down;
 
     }
 
-
-
-
   }
 
-body {
-    background-color: #D9D9D9;
-    font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
-}
-
-nav {
-    padding: 20px;
-    display: block;
-    font-weight: bold;
-    font-family: 'Roboto Condensed',verdana,'san serif';
-    }
-nav a:hover {
-    text-decoration: underline; 
-    text-decoration-color: #BF6C06;
-}
-nav a {
-    padding-bottom: 20px;
-    display: block;
-    color: #000;
-    text-decoration: none;   
-}
-
-.active {
-    text-decoration:underline;
-    text-decoration-color: #BF6C06;
-}
-nav {
-    display: none;
-    position: absolute;
-    background-color: #475459;
-}
-
-header {
-    position: relative;
-}
-#menu-checkbox:checked ~ nav {
-    display: block;
-   
-}
- 
-.menu-icon {
-    display: block;
-    cursor: pointer;
-    padding: 10px;
-}
- 
-.menu-icon i {
-    font-size: 24px;
-}
- 
-#menu-checkbox {
-    display: none;
-}
-
-
-nav img {
-    width: 110px;
-    float: inline-start;
-    margin-top: 20px;
-    margin-left: 20px;
-    display: none;
-       
-}
-
-
-@media (min-width: 600px) {
-    nav {
-        display: block;
-        position: relative;
-        background-color: #fff;
-        
-
-    }
-
-    .menu-icon {
-        display: none;
-    }
-
-    nav a {
-        display: inline-block;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-
-    }
-    li {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 60px;
-       
-    }
-
-    nav img {
-        width: 110px;
-        float: left;
-        margin-top: 0px;
-        margin-left: 20px;
-        display: flex;
-        
-    
-           
-    }
-
-    link {
-        float: right;
-        color: #000;
-        font-size: large;
-        background-color: #fff;
-        border: none;
-        
-    }
-}
 
 footer {
     background-color: #475459;

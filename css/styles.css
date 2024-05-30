@@ -96,6 +96,8 @@ nav img {
         justify-content: center;
         align-items: center;
         padding: 20px;
+        color: #000;
+        text-decoration: none;
     }
 
     nav div {
@@ -103,6 +105,7 @@ nav img {
         justify-content: center;
         align-items: center;
         gap: 60px;
+
     }
 
     nav img {
@@ -152,6 +155,7 @@ main div {
 .row2 {
     background-color: darkslategray;
     max-width: 50rem;
+    max-height: 310px;
     border-radius: 10px 10px 10px 10px;
     margin-top: 40px;
     margin-bottom: 70px;
@@ -159,18 +163,18 @@ main div {
     }
 
 .image-row2 img {
-    height: 300px;
+    height: 320px;
     width: auto;
     border-radius: 50%;
 }
     
-.monsen3 {
-   height: 300px;
+  .monsen3 {
+    height: 310px;
     width: auto;
-    object-fit: cover;
     border-radius: 50%;
- }
+    }
  
+
 
  
  .row2 p {

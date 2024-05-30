@@ -1,29 +1,30 @@
 
-
 body {
     background-color: #D9D9D9;
     font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
 }
 
 nav {
+    display: block;
+    position: absolute;
+    font-family: 'Roboto Condensed',verdana,'san serif';
     color: #000;
+    top: 35px;
+    left: 10px;
     text-decoration: none;
     padding: 20px;
-    display: block;
     font-weight: bold;
-    font-family: 'Roboto Condensed',verdana,'san serif';
-    
+    background-color: #475459;
 }
+
 nav a:hover {
     text-decoration: underline; 
     text-decoration-color: #BF6C06;
+
 }
 nav a {
     padding-bottom: 20px;
-    display: block;
-
-    
-    
+    display: block;   
 }
 
 link {
@@ -32,18 +33,12 @@ link {
     size: large;
     background-color: #475459;
     border: none;
-    padding: 20px;
-
-    
+    padding: 20px;    
 }
+
 .active {
     text-decoration:underline;
     text-decoration-color: #BF6C06;
-}
-nav {
-    display: none;
-    position: relative;
-    background-color: #475459;
 }
 
 header {
@@ -51,7 +46,6 @@ header {
 }
 #menu-checkbox:checked ~ nav {
     display: block;
-   
 }
  
 .menu-icon {
@@ -73,8 +67,6 @@ header {
     width: 100%;
     object-fit: cover;
     object-position: center;
-    
-
 }
 
 nav img {
@@ -82,28 +74,18 @@ nav img {
     float: inline-start;
     margin-top: 20px;
     margin-left: 20px;
-    display: none;
-       
+    display: none;    
 }
-
-main div {
-    position: relative;
-}
-
-main img {
-    position: relative;
-}
-
-
-
 
 @media (min-width: 600px) {
     nav {
-        display: block;
+        display: inline-block;
         position: relative;
         background-color: #fff;
-        
-
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        padding: 20px 0 20px 0;
     }
 
     .menu-icon {
@@ -112,18 +94,16 @@ main img {
 
     nav a {
         display: inline-block;
-        display: flex;
         justify-content: center;
         align-items: center;
         padding: 20px;
-
     }
-    li {
+
+    nav div {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 60px;
-       
     }
 
     nav img {
@@ -131,20 +111,15 @@ main img {
         float: left;
         margin-top: 0px;
         margin-left: 20px;
-        display: flex;
-        
-    
-           
+        display: flex;       
     }
 
     link {
         float: right;
-
         color: #000;
         font-size: large;
         background-color: #fff;
-        border: none;
-        
+        border: none;   
     }
 }
 
