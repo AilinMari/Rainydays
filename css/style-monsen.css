@@ -125,7 +125,7 @@ nav img {
 .home a {
     margin-right: 0px;
     text-decoration: none;
-    color: darkslategray;
+    color: #475459;
 }
 
 .shop a {
@@ -158,7 +158,7 @@ nav img {
 header hr {
     height: 2px;
     border: none;
-    background-color: darkslategray;  
+    background-color: #475459;  
 }
 .activen {
     color: #BF6C06;

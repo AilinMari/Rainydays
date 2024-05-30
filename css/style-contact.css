@@ -44,7 +44,7 @@ link {
 .home a {
     margin-right: 0px;
     text-decoration: none;
-    color: darkslategray;
+    color: #475459;
     
 }
 .contact a {
@@ -150,13 +150,7 @@ nav img {
         display: flex;       
     }
 
-    link {
-        float: right;
-        color: #000;
-        font-size: large;
-        background-color: #fff;
-        border: none;   
-    }
+
     
     .navi-line {
         font-weight: bold;

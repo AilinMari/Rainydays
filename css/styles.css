@@ -78,6 +78,7 @@ nav img {
     display: none;    
 }
 
+@media (max-width: 600px) {
 .pop-banner h1 {
     background-color:orange; 
     max-width: 20rem;  
@@ -90,6 +91,107 @@ nav img {
     font-size: 1rem;
     text-align: center;
 }
+main div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row2 {
+    flex-direction: column-reverse;
+}
+section img {
+    max-width: 300px;
+    justify-content: center;
+    margin-bottom: 2rem;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.head-info {
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    color: #ffffff;
+    text-align: center;
+    background-color: #475459;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 300px;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+
+}
+
+
+section h2 {
+    font-size: 1.8rem;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.monsen3-head h2 {
+    color: #fff;
+}
+
+.inspo-quote {
+    font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
+    font-weight: bold;
+    color: #023059;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.theme-photos img {
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+footer {
+    display: flex;
+    background-color: #475459;
+    max-width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    flex-direction: column-reverse;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+}
+.footer-linje {
+    flex-wrap: wrap;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer img {
+    display: none;
+}
+
+.help {
+    color: #fff;
+    display: flex;
+    gap: 5rem;
+    font-size: 1rem;
+}
+
+.helps {
+    margin: 30px 30 30 0;
+}
+
+.footer-bottom p {
+    color: #fff;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column-reverse;
+    float: left;
+    margin: 30px 30px 0px 30px;
+}
+}
+
+
 
 @media (min-width: 600px) {
     nav {
@@ -138,7 +240,7 @@ nav img {
     max-width: 50rem;
     border-radius: 10px 10px 10px 10px;
     color: #023059;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 200px;
@@ -163,7 +265,7 @@ main div {
 }
 
 .row2 {
-    background-color: darkslategray;
+    background-color: #475459;
     max-width: 50rem;
     max-height: 310px;
     border-radius: 10px 10px 10px 10px;
@@ -260,6 +362,11 @@ section a {
     flex: 2;   
 }
 
+.theme-photos {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
 .doggo-image {
     height: 400px;
     width: 400px;
@@ -278,10 +385,7 @@ section a {
     object-fit: cover;
 }
 
-.theme-photos {
-    margin-top: 70px;
-    margin-bottom: 100px;
-}
+
 
 footer {
     background-color: #475459;
@@ -297,20 +401,26 @@ footer {
     justify-content: flex-end;
     font-family: 'Roboto Condensed',verdana,'san serif';
     color: #ffffff;
-    margin-right: 200px;    
+    margin-right: 200px; 
 }
 
 footer img {
-    width: 1410px;
+    width: 1200px;
     height: 200px;
     object-fit: cover;
     object-position: top;
     position: absolute;
+
+    display: flex;
+    justify-content: flex-start;
 }
+
+
  
 .help {
     display: flex;
-    gap: 140px;  
+    gap: 140px; 
+    position: relative; 
 }
  
 .helps {
@@ -330,7 +440,7 @@ footer img {
 }
 
 main img {
-    width: 100%; 
+ 
 }
 
 .footer-bottom {
@@ -340,6 +450,7 @@ main img {
     font-family: 'Roboto Condensed',verdana,'san serif';
     color: #ffffff;
     position: absolute;
+    margin-left: 70px;
 
 }
 
@@ -347,6 +458,7 @@ main img {
     background-color: #fff;
     height: 1px;
     margin-top: 20px;
+    position: relative; 
 }
 
 header a {

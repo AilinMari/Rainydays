@@ -124,7 +124,7 @@ nav img {
 .home a {
     margin-right: 0px;
     text-decoration: none;
-    color: darkslategray;
+    color: #475459;
     
 }
 .shop a {
@@ -155,7 +155,7 @@ nav img {
 header hr {
     height: 2px;
     border: none;
-    background-color: darkslategray;  
+    background-color: #475459;  
 }
 .activen {
     color: #BF6C06;
@@ -170,7 +170,7 @@ main {
 }
 
 .row1 {
-    background-color: darkslategray;
+    background-color: #475459;
     max-width: 50rem;
     max-height: 310px;
     border-radius: 10px 10px 10px 10px;
@@ -233,7 +233,7 @@ main {
 
 
 .row2 {
-    background-color: darkslategray;
+    background-color: #475459;
     max-width: 50rem;
     border-radius: 10px 10px 10px 10px;
     margin-top: 70px;
@@ -285,7 +285,7 @@ main {
 
 
 .row3 {
-    background-color: darkslategray;
+    background-color: #475459;
     max-width: 50rem;
     border-radius: 10px 10px 10px 10px;
     margin-top: 70px;
@@ -330,7 +330,7 @@ main {
 }
 
 .row4 {
-    background-color: darkslategray;
+    background-color: #475459;
     max-width: 25rem;
     border-radius: 10px 10px 10px 10px;
     margin-top: 70px;
