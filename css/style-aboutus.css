@@ -1,8 +1,10 @@
 
 body {
-    background-color: #D9D9D9;
+    background-color: hsla(0, 0%, 85%, 0.500);
     font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
 }
+
+
 
 nav {
     display: block;
@@ -65,6 +67,84 @@ nav img {
     margin-left: 20px;
     display: none;    
 }
+@media (max-width: 600px) {
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    max-width: 200px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+main img {
+    max-width: 400px;
+    flex-wrap: wrap;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
+}
+
+main p {
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    font-size: 1.2rem;
+}
+
+footer {
+    display: flex;
+    background-color: #475459;
+    max-width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    flex-direction: column-reverse;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+}
+.footer-linje {
+    flex-wrap: wrap;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer img {
+    display: none;
+}
+
+.help {
+    color: #fff;
+    display: flex;
+    gap: 5rem;
+    font-size: 1rem;
+}
+
+.helps {
+    margin: 30px 30 30 0;
+}
+
+.footer-bottom p {
+    color: #fff;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column-reverse;
+    float: left;
+    margin: 30px 30px 0px 30px;
+}
+}
+
 
 @media (min-width: 600px) {
     nav {
@@ -113,7 +193,7 @@ nav img {
         background-color: #fff;
         border: none;   
     }
-}
+
 
 .home a {
     margin-right: 0px;
@@ -174,7 +254,7 @@ main {
 .about-rainydays {
     display: flex;
     margin: 70px;
-    gap: 5rem;
+    gap: 6rem;
 
 }
 
@@ -185,7 +265,7 @@ h1 {
 
 
 .people-hiking {
-    max-width: 500px;
+    max-width: 600px;
     height: auto;
     flex-wrap: wrap;
     object-fit: scale-down;
@@ -193,13 +273,13 @@ h1 {
 
 
 .text-about-us {
-    max-width: 800px;
+    max-width: 600px;
 }
 
 .our-jacket-design {
     display: flex;
     margin: 70px;
-    gap: 5rem;
+    gap: 6rem;
 }
 
 .text-about-jacket-design {
@@ -207,33 +287,18 @@ h1 {
 }
 
 .top-ofthe-mountain {
-    max-width: 500px;
+    max-width: 600px;
     flex-wrap: wrap;
     object-fit: scale-down;
 }
 
 main p {
     font-family: 'Roboto Condensed',verdana,'san serif';
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     flex-wrap: wrap;
 }
 
-@media (max-width: 600px) {
-    main {
-      flex-direction: column;
 
-    }
-    .people-hiking {
-      flex-wrap: wrap;  
-    }
-
-    section img {
-        flex-wrap: wrap;
-        object-fit: scale-down;
-
-    }
-
-  }
 
 
   footer {
@@ -243,7 +308,6 @@ main p {
     height: 180px;
     width: 100%;
 }
-/* issues with the width */
  
 .footer-content {
     display: flex;
@@ -313,4 +377,5 @@ header a {
 
 body {
     object-position: center;
+}
 }
