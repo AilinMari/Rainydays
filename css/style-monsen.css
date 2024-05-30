@@ -22,7 +22,8 @@ nav a:hover {
 }
 nav a {
     padding-bottom: 20px;
-    display: block;   
+    display: block;  
+    color: #ffffff; 
 }
 
 link {
