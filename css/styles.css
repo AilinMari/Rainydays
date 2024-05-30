@@ -39,11 +39,11 @@ header {
     position: relative;
 }
 
+ 
 #menu-checkbox:checked ~ nav {
     display: block;
 }
 
- 
 .menu-icon {
     display: block;
     cursor: pointer;

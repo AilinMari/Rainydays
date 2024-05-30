@@ -22,7 +22,9 @@ nav a:hover {
 }
 nav a {
     padding-bottom: 20px;
-    display: block;   
+    display: block;  
+    color: #000;
+    text-decoration: none; 
 }
 
 link {
@@ -102,6 +104,13 @@ nav img {
         margin-left: 0px;
         text-decoration: none;
     }
+
+    .checkout a {
+        margin-left: 0px;
+        text-decoration: none;
+        color: lightslategray;
+        font-weight: lighter;
+    }
     
     .activen {
         color: #BF6C06;
@@ -111,8 +120,8 @@ nav img {
     .navi-line {
         font-weight: bold;
         display: inline-block;
-        font-size: large;
-        margin-left: 30px;
+        font-size: 1rem;
+        margin-left: 10px;
         gap: 0px;
         font-family: 'Roboto Condensed',verdana,'san serif';
         text-decoration: none;
@@ -121,12 +130,51 @@ nav img {
     
     .navi-line div {
         display: inline;
-        margin-right: 30px;
+        margin-right: 3px;
     }
     
     .oversikt-linje { 
         width: 60%;
     }
+    
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+
+    .icon {
+        font-size: 20rem;
+        color: #023059;
+        margin-top: 70px;
+        flex-wrap: wrap;
+    }
+    
+    h1 {
+    font-family: 'Roboto Condensed',verdana,'san serif';
+}
+
+    main p {
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    font-size: 1.5rem;
+    display: flex;
+    text-align: center;
+}
+
+    .submit {    
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    width: 25rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #023059;
+    background-color: orange;
+    height: 45px;
+    border-radius: 7px 7px 7px 7px;
+    margin-top: 1.5rem;
+}
+
     
     footer {
         display: flex;
@@ -239,6 +287,13 @@ nav img {
     font-weight: lighter;
 }
 
+.checkout a {
+    margin-left: 0px;
+    text-decoration: none;
+    color: lightslategray;
+    font-weight: lighter;
+}
+
 .navi-line {
     font-weight: bold;
     display: inline-block;
@@ -280,7 +335,7 @@ main {
 
 .icon {
     font-size: 20rem;
-    color: #012341;
+    color: #023059;
     margin-top: 70px;
 }
 h1 {
@@ -299,9 +354,9 @@ main p {
     width: 25rem;
     font-size: 1.4rem;
     font-weight: bold;
-    color: #012341;
+    color: #023059;
     background-color: orange;
-    height: 35px;
+    height: 45px;
     border-radius: 7px 7px 7px 7px;
     margin-top: 1.5rem;
 }
