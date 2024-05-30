@@ -165,27 +165,6 @@ section {
 }
 
 
-/* .big-logo {
-    max-width: 600px;
-    margin-top: 50px;
-    object-fit: cover;
-    object-position: top;
-    flex-wrap: wrap;
-    object-fit: scale-down;
-    background-color: #BF6C06;
-}
-
-
-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    opacity: 60%;
-
-
-} */
-
 main {
     display: flex;
     flex-wrap: wrap;   
@@ -195,7 +174,7 @@ main {
 .about-rainydays {
     display: flex;
     margin: 70px;
-    gap: 6rem;
+    gap: 5rem;
 
 }
 
@@ -206,7 +185,7 @@ h1 {
 
 
 .people-hiking {
-    max-width: 600px;
+    max-width: 500px;
     height: auto;
     flex-wrap: wrap;
     object-fit: scale-down;
@@ -214,13 +193,13 @@ h1 {
 
 
 .text-about-us {
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .our-jacket-design {
     display: flex;
     margin: 70px;
-    gap: 6rem;
+    gap: 5rem;
 }
 
 .text-about-jacket-design {
@@ -228,14 +207,14 @@ h1 {
 }
 
 .top-ofthe-mountain {
-    max-width: 600px;
+    max-width: 500px;
     flex-wrap: wrap;
     object-fit: scale-down;
 }
 
 main p {
     font-family: 'Roboto Condensed',verdana,'san serif';
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     flex-wrap: wrap;
 }
 
@@ -257,63 +236,57 @@ main p {
   }
 
 
-footer {
+  footer {
     background-color: #475459;
-    padding: 30px;
+    padding: 30px 0 30px 0;
     text-align: left;
     height: 180px;
     width: 100%;
 }
+/* issues with the width */
  
 .footer-content {
     display: flex;
     justify-content: flex-end;
     font-family: 'Roboto Condensed',verdana,'san serif';
     color: #ffffff;
-    margin-right: 200px;
-    
-   
-    
+    margin-right: 200px; 
 }
 
 footer img {
-    width: 1410px;
+    width: 1200px;
     height: 200px;
     object-fit: cover;
     object-position: top;
     position: absolute;
-    
-    
+
+    display: flex;
+    justify-content: flex-start;
 }
+
+
  
 .help {
     display: flex;
-    gap: 140px;
-    
-    
+    gap: 140px; 
+    position: relative; 
 }
  
 .helps {
-    text-align: left;
-    
-    
+    text-align: left;    
 }
  
 .helps p {
-    margin: 0 0 5px;
-    
+    margin: 0 0 5px;   
 }
 
 .follow p {
-    margin: 0 0 5px;
-    
+    margin: 0 0 5px;  
 }
 
 .follow {
     text-align: left;
 }
-
-
 
 .footer-bottom {
     margin-top: 150px;
@@ -322,6 +295,7 @@ footer img {
     font-family: 'Roboto Condensed',verdana,'san serif';
     color: #ffffff;
     position: absolute;
+    margin-left: 70px;
 
 }
 
@@ -329,5 +303,14 @@ footer img {
     background-color: #fff;
     height: 1px;
     margin-top: 20px;
+    position: relative; 
 }
 
+header a {
+    color: #000;
+    text-decoration: none;   
+}
+
+body {
+    object-position: center;
+}

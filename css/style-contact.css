@@ -162,7 +162,7 @@ nav img {
         text-decoration: none;
         margin-top: 30px;
     }
-}
+
 
 
 main {
@@ -263,31 +263,38 @@ label {
 
 footer {
     background-color: #475459;
-    padding: 30px;
+    padding: 30px 0 30px 0;
     text-align: left;
     height: 180px;
     width: 100%;
 }
+/* issues with the width */
  
 .footer-content {
     display: flex;
     justify-content: flex-end;
     font-family: 'Roboto Condensed',verdana,'san serif';
     color: #ffffff;
-    margin-right: 200px;    
+    margin-right: 200px; 
 }
 
 footer img {
-    width: 1410px;
+    width: 1200px;
     height: 200px;
     object-fit: cover;
     object-position: top;
     position: absolute;
+
+    display: flex;
+    justify-content: flex-start;
 }
+
+
  
 .help {
     display: flex;
-    gap: 140px;  
+    gap: 140px; 
+    position: relative; 
 }
  
 .helps {
@@ -306,10 +313,6 @@ footer img {
     text-align: left;
 }
 
-main img {
-    width: 100%; 
-}
-
 .footer-bottom {
     margin-top: 150px;
     font-size: small;
@@ -317,6 +320,7 @@ main img {
     font-family: 'Roboto Condensed',verdana,'san serif';
     color: #ffffff;
     position: absolute;
+    margin-left: 70px;
 
 }
 
@@ -324,17 +328,15 @@ main img {
     background-color: #fff;
     height: 1px;
     margin-top: 20px;
+    position: relative; 
 }
-
 
 header a {
     color: #000;
     text-decoration: none;   
 }
 
-
-
-
 body {
     object-position: center;
+}
 }

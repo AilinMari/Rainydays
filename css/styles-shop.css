@@ -75,7 +75,45 @@ nav img {
     margin-left: 20px;
     display: none;    
 }
+@media (max-width: 600px) {
 
+.monsen3-head h2 {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+
+
+.reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+
+
+
+    
+main img {
+    max-width: 300px;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.image-row1 {
+    margin-top: 70px;
+}
+
+.row4 {
+    margin-bottom: 70px;
+}
+
+.head-info h2 {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+}
+ 
 @media (min-width: 600px) {
     nav {
         display: inline-block;
@@ -120,7 +158,7 @@ nav img {
         background-color: #fff;
         border: none;   
     }
-}
+
 .home a {
     margin-right: 0px;
     text-decoration: none;
@@ -191,7 +229,6 @@ main {
 
     height: 315px;
     width: auto;
-    /* object-fit: cover; */
     border-radius: 50%;
      
  }
@@ -366,4 +403,84 @@ main {
     text-decoration: underline orange;
     margin-right: 200px;
 
+}
+
+footer {
+    background-color: #475459;
+    padding: 30px 0 30px 0;
+    text-align: left;
+    height: 180px;
+    width: 100%;
+}
+
+ 
+.footer-content {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    color: #ffffff;
+    margin-right: 200px; 
+}
+
+footer img {
+    width: 1200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+ 
+.help {
+    display: flex;
+    gap: 140px; 
+    position: relative; 
+}
+ 
+.helps {
+    text-align: left;    
+}
+ 
+.helps p {
+    margin: 0 0 5px;   
+}
+
+.follow p {
+    margin: 0 0 5px;  
+}
+
+.follow {
+    text-align: left;
+}
+
+.footer-bottom {
+    margin-top: 150px;
+    font-size: small;
+    display: inline;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    color: #ffffff;
+    position: absolute;
+    margin-left: 70px;
+
+}
+
+.footer-linje hr {
+    background-color: #fff;
+    height: 1px;
+    margin-top: 20px;
+    position: relative; 
+}
+
+header a {
+    color: #000;
+    text-decoration: none;   
+}
+
+body {
+    object-position: center;
+}
 }
