@@ -1,7 +1,10 @@
+
 body {
     background-color: hsla(0, 0%, 85%, 0.500);
     font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
 }
+
+
 
 nav {
     display: block;
@@ -23,16 +26,46 @@ nav a:hover {
 }
 nav a {
     padding-bottom: 20px;
-    display: block;   
+    display: block; 
+    color: #000;
+    text-decoration: none;  
 }
 
-link {
-    display: inline;
-    color: #000;
-    size: large;
-    background-color: #475459;
-    border: none;
-    padding: 20px;    
+.active {
+    text-decoration:underline;
+    text-decoration-color: #BF6C06;
+}
+
+header {
+    position: relative;
+}
+
+nav,
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+    display: block;
+}
+ 
+.menu-icon {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+}
+ 
+.menu-icon i {
+    font-size: 24px;
+}
+ 
+
+nav img {
+    width: 110px;
+    float: inline-start;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: none;    
 }
 
 .active {
@@ -49,6 +82,7 @@ link {
 }
 .contact a {
     margin-left: 0px;
+    text-decoration: none;
 }
 
 .navi-line {
@@ -81,36 +115,159 @@ header hr {
     color: #BF6C06;
 }
 
+@media (max-width: 600px) {
 
-header {
-    position: relative;
+    main {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
-#menu-checkbox:checked ~ nav {
+
+
+ form {
+    color:#2c2c2c;
+    font-size: 1rem;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+fieldset {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+legend {
+    font-size: 3rem;
+    font-family: 'Playfair display','Crimson text' Verdana, sans-serif;
+    margin-left: 25px;
+}
+
+
+label {
+    font-size: 1rem;
+    font-family:'Roboto Condensed',verdana,'san serif';
+    margin-left: 25px;
+}
+
+.submit-48h {
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    font-size: 1rem;
+    margin-top: -30px;
+    margin-left: 25px;
+}
+
+.contact-information {
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: -10px;
+    margin-left: 25px;
+}
+
+.form__input {
     display: block;
+    margin: 10px;
+    border-radius: 5px 5px 5px 5px;
+    height: 25px;
+    max-width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
- 
-.menu-icon {
+
+.form_right_input {
     display: block;
-    cursor: pointer;
-    padding: 10px;
+    margin: 10px;
+    border-radius: 5px 5px 5px 5px;
+    height: 25px;
+    max-width: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
- 
-.menu-icon i {
-    font-size: 24px;
+.form_center_input {
+    display: block;
+    max-width: 500px;
+    margin: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 5px 5px 5px 5px;
+    height: 25px;
 }
- 
-#menu-checkbox {
+.form_center_big_input {
+    display: block;
+    max-width: 500px;
+    height: 200px;
+    margin: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.submit {
+    width: 300px;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    font-size: 1.4rem;
+    color: #023059;
+    font-weight: bold;
+    background-color: orange;
+    margin: 40px;
+    height: 35px;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+     
+footer {
+    display: flex;
+    background-color: #475459;
+    max-width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    flex-direction: column-reverse;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+}
+.footer-linje {
+    flex-wrap: wrap;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer img {
     display: none;
 }
 
-
-nav img {
-    width: 110px;
-    float: inline-start;
-    margin-top: 20px;
-    margin-left: 20px;
-    display: none;    
+.help {
+    color: #fff;
+    display: flex;
+    gap: 5rem;
+    font-size: 1rem;
 }
+
+.helps {
+    margin: 30px 30 30 0;
+}
+
+.footer-bottom p {
+    color: #fff;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column-reverse;
+    float: left;
+    margin: 30px 30px 0px 30px;
+}
+ }
+
+
 
 @media (min-width: 600px) {
     nav {
@@ -152,7 +309,7 @@ nav img {
 
 
     
-    .navi-line {
+ .navi-line {
         font-weight: bold;
         display: inline-block;
         font-size: large;
@@ -336,7 +493,4 @@ header a {
     text-decoration: none;   
 }
 
-body {
-    object-position: center;
-}
 }

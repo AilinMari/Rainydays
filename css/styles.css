@@ -29,14 +29,6 @@ nav a {
     text-decoration: none;
 }
 
-link {
-    display: inline;
-    color: #000;
-    size: large;
-    background-color: #475459;
-    border: none;
-    padding: 20px;    
-}
 
 .active {
     text-decoration:underline;
@@ -46,9 +38,11 @@ link {
 header {
     position: relative;
 }
+
 #menu-checkbox:checked ~ nav {
     display: block;
 }
+
  
 .menu-icon {
     display: block;
@@ -60,6 +54,7 @@ header {
     font-size: 24px;
 }
  
+nav,
 #menu-checkbox {
     display: none;
 }

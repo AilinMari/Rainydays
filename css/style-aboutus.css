@@ -41,6 +41,7 @@ header {
     position: relative;
 }
 
+nav,
 #menu-checkbox {
     display: none;
 }
@@ -68,6 +69,42 @@ nav img {
     display: none;    
 }
 @media (max-width: 600px) {
+
+    .home a {
+    margin-right: 0px;
+    text-decoration: none;
+    color: #475459;
+    
+}
+.aboutus a {
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+
+.navi-line {
+    font-weight: bold;
+    display: inline-block;
+    font-size: large;
+    margin-left: 30px;
+    gap: 0px;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.navi-line div {
+    display: inline;
+    margin-right: 30px;
+}
+
+.oversikt-linje { 
+    width: 60%;
+}
+.activen {
+    color: #BF6C06;
+}
+
 section {
     display: flex;
     justify-content: center;
@@ -98,6 +135,10 @@ main h1 {
 main p {
     font-family: 'Roboto Condensed',verdana,'san serif';
     font-size: 1.2rem;
+}
+
+.top-ofthe-mountain {
+    margin-bottom: 70px;
 }
 
 footer {
@@ -143,6 +184,8 @@ footer img {
     float: left;
     margin: 30px 30px 0px 30px;
 }
+
+
 }
 
 

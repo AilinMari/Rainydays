@@ -48,7 +48,8 @@ header {
 .menu-icon i {
     font-size: 24px;
 }
- 
+
+nav,
 #menu-checkbox {
     display: none;
 }
@@ -105,11 +106,43 @@ main img {
     text-decoration-color: orange;
 }
 
+.home a {
+    margin-right: 0px;
+    text-decoration: none;
+    color: #475459;
+    
+}
+.shop a {
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+
 .navi-line {
-    display: flex;
+    font-weight: bold;
+    display: inline-block;
+    font-size: large;
+    margin-left: 30px;
+    gap: 0px;
+    font-family: 'Roboto Condensed',verdana,'san serif';
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.navi-line div {
+    display: inline;
+    margin-right: 30px;
+}
+
+.oversikt-linje { 
+    width: 60%;
+}
+.activen {
+    color: #BF6C06;
 }
 }
  
+
 @media (min-width: 600px) {
     nav {
         display: inline-block;
@@ -147,13 +180,6 @@ main img {
         display: flex;       
     }
 
-    link {
-        float: right;
-        color: #000;
-        font-size: large;
-        background-color: #fff;
-        border: none;   
-    }
 
 .home a {
     margin-right: 0px;
@@ -225,7 +251,6 @@ main {
 
     height: 315px;
     width: auto;
-    /* object-fit: cover; */
     border-radius: 50%;
      
  }
@@ -479,6 +504,5 @@ header a {
 
 body {
     object-position: center;
-}
 }
 }

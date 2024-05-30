@@ -78,6 +78,15 @@ nav img {
 }
 
 @media (min-width: 600px) {
+
+
+}
+
+
+
+
+
+@media (min-width: 600px) {
     nav {
         display: inline-block;
         position: relative;
