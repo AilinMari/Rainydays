@@ -1,7 +1,9 @@
 body {
   background-color: #fff;
   font-family: "Playfair display", "Crimson text" Verdana, sans-serif;
+  max-width: 100%;
 }
+
 nav {
   display: block;
   position: absolute;
@@ -26,15 +28,6 @@ nav a {
   text-decoration: none;
 }
 
-link {
-  display: inline;
-  color: #000;
-  size: large;
-  background-color: #475459;
-  border: none;
-  padding: 20px;
-}
-
 .active {
   text-decoration: underline;
   text-decoration-color: #bf6c06;
@@ -42,7 +35,9 @@ link {
 
 header {
   position: relative;
+  z-index: 1;
 }
+
 #menu-checkbox:checked ~ nav {
   display: block;
 }
@@ -67,6 +62,15 @@ nav,
   width: 100%;
   object-fit: cover;
   object-position: center;
+  position: relative;
+}
+
+.logo-pic {
+  position: absolute;
+  max-width: 300px;
+  margin-top: 20rem;
+  width: 100%;
+  object-fit: cover;
 }
 
 nav img {
@@ -77,131 +81,117 @@ nav img {
   display: none;
 }
 
+link {
+  float: right;
+  color: #000;
+  font-size: large;
+  background-color: #fff;
+  border: none;
+}
+
+.home a {
+  margin-right: 0px;
+  text-decoration: none;
+  color: #475459;
+}
+
+.shop a {
+  text-decoration: none;
+  color: lightslategray;
+  font-weight: lighter;
+}
+
+.monsen a {
+  text-decoration: none;
+  color: lightslategray;
+  font-weight: lighter;
+}
+
+.navi-line {
+  font-weight: bold;
+  display: inline-block;
+  font-size: large;
+  margin-left: 30px;
+  gap: 0px;
+  font-family: "Roboto Condensed", verdana, "san serif";
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.navi-line div {
+  display: inline;
+  margin-right: 30px;
+}
+
+.oversikt-linje {
+  width: 60%;
+}
+
+header hr {
+  height: 2px;
+  border: none;
+  background-color: #475459;
+}
+.activen {
+  color: #bf6c06;
+  text-decoration: none;
+}
+
 @media (max-width: 600px) {
-  .home a {
-    margin-right: 0px;
-    text-decoration: none;
-    color: #475459;
-  }
-
-  .shop a {
-    margin-left: 0px;
-    text-decoration: none;
-    color: lightslategray;
-    font-weight: lighter;
-  }
-
-  .monsen a {
-    margin-left: 0px;
-    text-decoration: none;
-    color: lightslategray;
-    font-weight: lighter;
-  }
-
-  .order-confirmed a {
-    margin-left: 0px;
-    text-decoration: none;
-  }
-
-  .activen {
-    color: #bf6c06;
-    text-decoration: none;
-  }
-
-  .navi-line {
-    font-weight: bold;
-    display: inline-block;
-    font-size: 1rem;
-    margin-left: 10px;
-    gap: 0px;
-    font-family: "Roboto Condensed", verdana, "san serif";
-    text-decoration: none;
-    margin-top: 30px;
-  }
-
-  .navi-line div {
-    display: inline;
-    margin-right: 3px;
-  }
-
-  .oversikt-linje {
-    width: 70%;
-  }
-
   main {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    margin-bottom: 70px;
   }
 
-  main legend {
-    color: #012341;
-    font-family: "Roboto Condensed", verdana, "san serif";
-    font-size: 2.5rem;
-  }
-
-  form {
-    color: #2c2c2c;
-    font-size: 1rem;
-    margin-top: 70px;
+  main fieldset {
     display: flex;
     justify-content: center;
     flex-direction: column;
-  }
-
-  main img {
-    max-height: 300px;
-  }
-
-  fieldset {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 400px;
+    max-width: 600px;
   }
   legend {
-    font-size: 3rem;
-    font-family: "Playfair display", "Crimson text" Verdana, sans-serif;
+    font-size: 2rem;
+    font-family: "Roboto Condensed", verdana, "san serif";
+    color: #012341;
     margin-left: 25px;
+  }
+
+  .monsen-product fieldset {
+    max-width: 600px;
+    margin-bottom: 2rem;
+  }
+
+  .monsen-product {
+    display: flex;
+    justify-content: center;
   }
   h1 {
     font-size: 1.4rem;
     color: #012341;
+    justify-content: flex-start;
+  }
+
+  .trash {
+    font-size: 1.1rem;
+    color: #012341;
+    margin-left: 4rem;
+    margin-top: -0.5rem;
+  }
+
+  img {
+    max-width: 200px;
+  }
+
+  .monsen-head {
+    margin-left: 1rem;
+    margin-top: -1rem;
   }
 
   main p {
     font-size: 1rem;
     color: #012341;
     margin-top: -1rem;
-  }
-
-  .quantity-full {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .monsen-head {
-    margin-left: 1rem;
-  }
-
-  .price {
-    margin-right: 3rem;
-    margin-top: 2.1rem;
-  }
-
-  .price p {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-
-  .trash {
-    font-size: 1.2rem;
-    color: #012341;
-    margin-left: 19.5rem;
   }
 
   button {
@@ -219,124 +209,76 @@ nav img {
     border: 2px solid;
   }
 
-  main label {
-    font-size: 1rem;
-    font-family: "Roboto Condensed", verdana, "san serif";
-    margin-left: 25px;
+  .quantity-full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+    margin-bottom: 4rem;
   }
 
-  .city-lable {
-    display: none;
+  .quantity-full p {
+    margin-top: 1rem;
+  }
+
+  .price p {
+    font-size: 1.3rem;
+    font-weight: bold;
   }
 
   .subtotal-price {
     display: flex;
-    gap: 10rem;
-  }
-
-  .subtotal p {
-    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 16rem;
     margin-top: 1rem;
-    font-weight: bold;
+    margin-bottom: 0.5rem;
   }
 
   .shipping-cost {
     display: flex;
-    gap: 3rem;
+    justify-content: center;
+    gap: 10rem;
   }
 
-  .calculated p {
-    font-size: 1.2rem;
-    margin-top: 1.3rem;
-  }
-
-  .total {
-    display: flex;
-    gap: 11rem;
-  }
-
-  .total p {
+  .subtotal {
     font-weight: bold;
-    font-size: 1.8rem;
-  }
-
-  .contact-information p {
-    font-family: "Roboto Condensed", verdana, "san serif";
-    font-size: 1.5rem;
-    margin-top: 50px;
-    margin-left: 25px;
-  }
-
-  .form__input {
-    display: block;
-    margin: 10px;
-    border-radius: 5px 5px 5px 5px;
-    height: 25px;
-    max-width: 200px;
-    margin-left: 25px;
-    margin-right: 25px;
-  }
-
-  .form_city_input {
-    display: block;
-    margin: 10px;
-    border-radius: 5px 5px 5px 5px;
-    height: 30px;
-    width: 125px;
-    margin-left: 25px;
-  }
-
-  .radio-buttons {
-    margin-left: 1.4rem;
-    font-size: 2rem;
-  }
-
-  .cvv-lable {
-    display: none;
-  }
-
-  .monsen-head {
-    font-size: 1.2rem;
-    margin-left: 1rem;
-  }
-
-  .trash-order {
-    font-size: 1.2rem;
-    color: #012341;
-    margin-left: 20rem;
-    margin-bottom: 1rem;
-  }
-
-  .free-cost {
-    display: flex;
-    gap: 9.7rem;
-  }
-
-  .free {
-    margin-top: 2.5rem;
-  }
-
-  .free p {
     font-family: "Roboto Condensed", verdana, "san serif";
     font-size: 1.3rem;
   }
 
-  .submit {
-    width: 300px;
+  .total {
+    display: flex;
+    gap: 15.5rem;
     font-family: "Roboto Condensed", verdana, "san serif";
-    font-size: 18px;
-    color: #023059;
+    color: #012341;
     font-weight: bold;
-    background: linear-gradient(to top, #bf6c06, #f5ca7a);
-    margin: 40px;
-    height: 35px;
-    border-radius: 7px 7px 7px 7px;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
-  .submit-button {
+  .total p {
+    font-size: 1.5rem;
+  }
+
+  .cart-buttons {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .submit {
+    font-family: "Roboto Condensed", verdana, "san serif";
+    width: 20rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #012341;
+    background: linear-gradient(to top, #bf6c06, #f5ca7a);
+    height: 35px;
+    border-radius: 7px 7px 7px 7px;
+    cursor: pointer;
   }
 
   footer {
@@ -422,71 +364,11 @@ nav img {
     display: flex;
   }
 
-  link {
-    float: right;
-    color: #000;
-    font-size: large;
-    background-color: #fff;
-    border: none;
-  }
-
-  .home a {
-    margin-right: 0px;
-    text-decoration: none;
-    color: #475459;
-  }
-
-  .shop a {
-    text-decoration: none;
-    color: lightslategray;
-    font-weight: lighter;
-  }
-
-  .cart a {
-    text-decoration: none;
-    color: lightslategray;
-    font-weight: lighter;
-  }
-
-  .monsen a {
-    margin-right: 0px;
-    color: lightslategray;
-    font-weight: lighter;
-  }
-
-  .navi-line {
-    font-weight: bold;
-    display: inline-block;
-    font-size: large;
-    margin-left: 30px;
-    gap: 0px;
-    font-family: "Roboto Condensed", verdana, "san serif";
-    text-decoration: none;
-    margin-top: 30px;
-  }
-
-  .navi-line div {
-    display: inline;
-    margin-right: 30px;
-  }
-
-  .oversikt-linje {
-    width: 60%;
-  }
-
-  header hr {
-    height: 2px;
-    border: none;
-    background-color: #475459;
-  }
-  .activen {
-    color: #bf6c06;
-    text-decoration: none;
-  }
-
-  section {
+  main {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   fieldset {
@@ -494,9 +376,9 @@ nav img {
     flex-direction: column;
     justify-content: center;
     max-width: 500px;
-    max-height: 600px;
-    margin-top: 70px;
-    margin-bottom: 70px;
+    max-height: 800px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 
   legend {
@@ -517,6 +399,10 @@ nav img {
     margin: 3rem;
   }
 
+  .monsen-product img {
+    max-height: 250px;
+  }
+
   h1 {
     font-family: "Playfair display", "Crimson text" Verdana, sans-serif;
     font-size: 2rem;
@@ -527,8 +413,6 @@ nav img {
 
   .monsen-product p {
     font-family: "Playfair display", "Crimson text" Verdana, sans-serif;
-    margin-top: -1rem;
-    margin-bottom: 5rem;
     color: #012341;
     margin-left: 3px;
     font-weight: bold;
@@ -539,7 +423,8 @@ nav img {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    margin-right: 3rem;
+    gap: 26.5rem;
   }
 
   button {
@@ -557,15 +442,12 @@ nav img {
     border: 2px solid;
   }
 
-  .monsen-product img {
-    max-height: 150px;
-  }
-
   .trash {
     margin-left: 8rem;
     padding-right: 1rem;
     font-size: 1.4rem;
     color: #012341;
+    margin-top: 2rem;
   }
 
   .trash-order {
@@ -629,99 +511,22 @@ nav img {
     font-weight: bold;
   }
 
-  main fieldset {
-    max-height: fit-content;
+  .cart-buttons {
     display: flex;
     justify-content: center;
-  }
-
-  form {
-    color: #2c2c2c;
-    font-size: 1rem;
-    margin-top: 70px;
-    display: flex;
-    justify-content: center;
-  }
-
-  label {
-    font-size: 20px;
-    font-family: "Roboto Condensed", verdana, "san serif";
-    margin-left: 2rem;
-  }
-  .lable-city {
-    display: none;
-  }
-  .contact-information {
-    font-family: "Roboto Condensed", verdana, "san serif";
-    font-size: 24px;
-    margin-top: 50px;
-    margin-bottom: -10px;
-    margin-left: 25px;
-  }
-
-  .form__input {
-    display: block;
-    margin: 10px;
-    border-radius: 5px 5px 5px 5px;
-    height: 30px;
-    width: 250px;
-    margin-left: 25px;
-    margin-right: 25px;
-  }
-
-  .form_city_input {
-    display: block;
-    margin: 10px;
-    border-radius: 5px 5px 5px 5px;
-    height: 30px;
-    width: 125px;
-  }
-
-  .label-post-city {
-    display: flex;
-    gap: 11rem;
-  }
-
-  .post-city {
-    display: flex;
-  }
-  .date-cvv {
-    display: flex;
-  }
-  .cvv-lable1 {
-    display: none;
-  }
-
-  .label-credit-card {
-    display: flex;
-    gap: 8rem;
-  }
-
-  .icon-card {
-    font-size: 2rem;
-    margin-left: 3rem;
-  }
-
-  .monsen-head p {
-    color: #012341;
+    margin-bottom: 1.5rem;
   }
 
   .submit {
-    width: 300px;
     font-family: "Roboto Condensed", verdana, "san serif";
-    font-size: 18px;
-    color: #012341;
+    width: 25rem;
+    font-size: 1.4rem;
     font-weight: bold;
+    color: #012341;
     background: linear-gradient(to top, #bf6c06, #f5ca7a);
-    margin: 40px;
     height: 35px;
     border-radius: 7px 7px 7px 7px;
-  }
-
-  .submit-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    cursor: pointer;
   }
 
   footer {

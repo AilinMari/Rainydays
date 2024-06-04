@@ -200,7 +200,7 @@ header hr {
     font-size: 1.4rem;
     color: #023059;
     font-weight: bold;
-    background-color: orange;
+    background: linear-gradient(to top, #bf6c06, #f5ca7a);
     margin: 40px;
     height: 35px;
     border-radius: 7px 7px 7px 7px;
@@ -385,7 +385,7 @@ header hr {
     width: 300px;
     font-family: "Roboto Condensed", verdana, "san serif";
     font-size: 18px;
-    background-color: orange;
+    background: linear-gradient(to top, #bf6c06, #f5ca7a);
     margin: 40px;
     height: 35px;
     border-radius: 7px 7px 7px 7px;

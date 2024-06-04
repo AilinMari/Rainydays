@@ -83,7 +83,8 @@ nav img {
 
 @media (max-width: 600px) {
   .pop-banner h1 {
-    background-color: orange;
+    /* background-color: orange; */
+    background: linear-gradient(to top, #bf6c06, #f5ca7a);
     max-width: 400px;
     border-radius: 10px 10px 10px 10px;
     color: #023059;
@@ -136,12 +137,12 @@ nav img {
   section h2 {
     font-size: 1.8rem;
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: #f5ca7a;
   }
 
   .monsen3-head h2 {
     color: #fff;
-    text-decoration-color: #bf6c06;
+    text-decoration-color: #f5ca7a;
   }
 
   .inspo-quote {
@@ -150,12 +151,18 @@ nav img {
     color: #023059;
     text-align: center;
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: #f5ca7a;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
   }
 
   .theme-photos img {
     flex-wrap: wrap;
     max-width: 300px;
+  }
+
+  .sitting-rock {
+    margin-bottom: 4rem;
   }
 
   footer {
@@ -242,7 +249,7 @@ nav img {
   }
 
   .pop-banner h1 {
-    background-color: orange;
+    background: linear-gradient(to top, #bf6c06, #f5ca7a);
     max-width: 50rem;
     border-radius: 10px 10px 10px 10px;
     color: #023059;
@@ -313,7 +320,7 @@ nav img {
     font-size: 2em;
     color: #ffffff;
     border-radius: 7px 7px 7px 7px;
-    text-decoration: underline orange;
+    text-decoration: underline #f5ca7a;
   }
 
   section {
@@ -332,7 +339,7 @@ nav img {
   }
 
   .pyntelinje hr {
-    background-color: orange;
+    background-color: #f5ca7a;
     height: 2px;
     border: none;
     margin: 40px;
@@ -357,7 +364,7 @@ nav img {
 
   .inspo-underline hr {
     width: 310px;
-    background-color: orange;
+    background-color: #f5ca7a;
     height: 2px;
     border: none;
     flex: 2;

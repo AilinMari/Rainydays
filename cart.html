@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This is the shopping cart for the Monsen jacket from Rainydays"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping cart</title>
+    <link href="css/style-cart.css" rel="spesifique stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/cc9325c3ed.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <input type="checkbox" id="menu-checkbox" />
+      <label for="menu-checkbox" class="menu-icon"
+        ><i class="fas fa-bars"></i
+      ></label>
+
+      <nav>
+        <img
+          src="images/RainyDays_Logo.jpg"
+          alt="Logo of the rainydays webside"
+          class="logo"
+        />
+        <div>
+          <a href="index.html"> HOME</a>
+          <a href="shop.html"> SHOP</a>
+          <a href="aboutus.html"> ABOUT US</a>
+          <a href="contact.html">CONTACT</a>
+          <i class="fas fa-shopping-cart"></i>
+          <i class="fas fa-search"></i>
+        </div>
+      </nav>
+
+      <div class="navi-line">
+        <div>
+          <div class="home">
+            <a href="index.html">Home ></a>
+          </div>
+          <div class="shop"><a href="shop.html">Shop ></a></div>
+          <div class="monsen">
+            <a href="monsen.html">Monsen ></a>
+          </div>
+            <div class="Cart">
+                <a href="cart.html" class="activen">Cart</a>
+          </div>
+
+      </div>
+      <div class="oversikt-linje"><hr /></div>
+    </header>
+    <main>
+      <fieldset>
+        <legend>CART 1</legend>
+        <div class="monsen-product">
+          <fieldset>
+            <div class="monsen-image">
+              <img src="images/RainyDays-monsen3.jpg" />
+            </div>
+          </fieldset>
+          <div class="monsen-head">
+            <h1>Monsen</h1>
+            <p>red/black<br /><br />Size: M</p>
+          </div>
+          <div class="trash"><i class="fas fa-trash"></i></div>
+        </div>
+        <div class="quantity-full">
+          <div class="price"><p>1399,-</p></div>
+          <div class="quntity-button">
+            <button><i class="minus-button">-</i></button>
+            <button class="value-button">1</button>
+            <button><i class="plus-button">+</i></button>
+          </div>
+        </div>
+        <div class="pyntelinje">
+          <hr />
+        </div>
+        <div class="subtotal-price">
+          <div class="subtotal"><p>Subtotal</p></div>
+          <div class="price"><p>1399,-</p></div>
+        </div>
+        <div class="shipping-cost">
+          <div class="subtotal"><p>Shipping</p></div>
+          <div class="calculated"><p>Calculated in checkout</p></div>
+        </div>
+        <div class="pyntelinje">
+          <hr />
+        </div>
+        <div class="total">
+          <div class="subtotal"><p>Total</p></div>
+          <div class="calculated"><p>1399,-</p></div>
+        </div>
+        <div class="cart-buttons">
+          <a href="checkout.html"
+            ><input type="submit" value="Proceed to checkout" class="submit"
+          /></a>
+        </div>
+        <div class="cart-buttons">
+          <a href="shop.html"
+            ><input type="submit" value="or Continue shopping" class="submit"
+          /></a>
+        </div>
+      </fieldset>
+    </main>
+    <footer>
+      <img src="images/RainyDays_Logo.png" class="logon" />
+      <div class="footer-bottom">
+        <p>&copy;RAINYDAYS 2024</p>
+      </div>
+      <div class="footer-content">
+        <div class="help">
+          <div class="helps">
+            <h3>HELP</h3>
+            <p>FAQ</p>
+            <p>Contact us</p>
+            <p>Size</p>
+          </div>
+          <div class="follow">
+            <h3>FOLLOW US</h3>
+            <p>TikTok</p>
+            <p>Facebook</p>
+            <p>Instagram</p>
+            <div class="footer-logo"></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-linje"><hr /></div>
+    </footer>
+  </body>
+</html>

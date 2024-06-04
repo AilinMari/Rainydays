@@ -69,7 +69,7 @@ body {
 
   .monsen3-head h2 {
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: #f5ca7a;
   }
 
   .reverse {
@@ -95,7 +95,7 @@ body {
 
   .head-info h2 {
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color: #f5ca7a;
   }
 
   .home a {
@@ -257,7 +257,7 @@ body {
     font-size: 2em;
     color: #ffffff;
     border-radius: 7px 7px 7px 7px;
-    text-decoration: underline orange;
+    text-decoration: underline #f5ca7a;
   }
 
   .head-info {
@@ -310,7 +310,7 @@ body {
     font-size: 2em;
     color: #ffffff;
     border-radius: 7px 7px 7px 7px;
-    text-decoration: underline orange;
+    text-decoration: underline #f5ca7a;
   }
 
   .row3 {
@@ -349,7 +349,7 @@ body {
     font-size: 2em;
     color: #ffffff;
     border-radius: 7px 7px 7px 7px;
-    text-decoration: underline orange;
+    text-decoration: underline #f5ca7a;
   }
 
   .row4 {
@@ -382,7 +382,7 @@ body {
     font-size: 2em;
     color: #ffffff;
     border-radius: 7px 7px 7px 7px;
-    text-decoration: underline orange;
+    text-decoration: underline #f5ca7a;
     margin-right: 200px;
   }
 
