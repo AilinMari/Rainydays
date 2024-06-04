@@ -132,7 +132,7 @@ nav img {
   }
 
   .oversikt-linje {
-    width: 60%;
+    width: 95%;
   }
 
   main {
@@ -167,7 +167,7 @@ nav img {
     font-size: 1.4rem;
     font-weight: bold;
     color: #023059;
-    background-color: orange;
+    background: linear-gradient(to top, #bf6c06, #f5ca7a);
     height: 45px;
     border-radius: 7px 7px 7px 7px;
     margin-top: 1.5rem;
@@ -349,7 +349,7 @@ nav img {
     font-size: 1.4rem;
     font-weight: bold;
     color: #023059;
-    background-color: orange;
+    background: linear-gradient(to top, #bf6c06, #f5ca7a);
     height: 45px;
     border-radius: 7px 7px 7px 7px;
     margin-top: 1.5rem;
