@@ -415,7 +415,6 @@ nav img {
     object-fit: cover;
     object-position: top;
     position: absolute;
-
     display: flex;
     justify-content: flex-start;
   }
@@ -450,6 +449,18 @@ nav img {
     color: #ffffff;
     position: absolute;
     margin-left: 70px;
+  }
+
+  .footer-bottom img {
+    max-width: 150px;
+    height: auto;
+    object-fit: fill;
+    position: relative;
+  }
+
+  .footer-logo-mini {
+    margin-top: -10rem;
+    margin-left: -1rem;
   }
 
   .footer-linje hr {

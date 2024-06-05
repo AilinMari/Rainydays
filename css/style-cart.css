@@ -598,6 +598,18 @@ header hr {
     margin-left: 70px;
   }
 
+  .footer-bottom img {
+    max-width: 150px;
+    height: auto;
+    object-fit: fill;
+    position: relative;
+  }
+
+  .footer-logo-mini {
+    margin-top: -10rem;
+    margin-left: -1rem;
+  }
+
   .footer-linje hr {
     background-color: #fff;
     height: 1px;

@@ -113,6 +113,7 @@ header hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
 
   form {
@@ -212,6 +213,27 @@ header hr {
     align-items: center;
   }
 
+  section {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  h2 {
+    font-family: "Playfair display", "Crimson text" Verdana, sans-serif;
+    font-size: 1.5rem;
+  }
+
+  section p {
+    font-family: "Roboto Condensed", verdana, "san serif";
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-top: -0.5rem;
+  }
+
   footer {
     display: flex;
     background-color: #475459;
@@ -308,6 +330,7 @@ header hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
 
   form {
@@ -397,6 +420,27 @@ header hr {
     align-items: center;
   }
 
+  section {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 15rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  h2 {
+    font-family: "Playfair display", "Crimson text" Verdana, sans-serif;
+    font-size: 2rem;
+  }
+
+  section p {
+    font-family: "Roboto Condensed", verdana, "san serif";
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: -0.5rem;
+  }
+
   footer {
     background-color: #475459;
     padding: 30px 0 30px 0;
@@ -404,7 +448,6 @@ header hr {
     height: 180px;
     width: 100%;
   }
-  /* issues with the width */
 
   .footer-content {
     display: flex;
@@ -455,6 +498,18 @@ header hr {
     color: #ffffff;
     position: absolute;
     margin-left: 70px;
+  }
+
+  .footer-bottom img {
+    max-width: 150px;
+    height: auto;
+    object-fit: fill;
+    position: relative;
+  }
+
+  .footer-logo-mini {
+    margin-top: -10rem;
+    margin-left: -1rem;
   }
 
   .footer-linje hr {
