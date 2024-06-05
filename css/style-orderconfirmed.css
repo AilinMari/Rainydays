@@ -128,7 +128,7 @@ nav img {
 
   .navi-line div {
     display: inline;
-    margin-right: 3px;
+    margin-right: 1rem;
   }
 
   .oversikt-linje {
@@ -152,6 +152,7 @@ nav img {
 
   h1 {
     font-family: "Roboto Condensed", verdana, "san serif";
+    text-align: center;
   }
 
   main p {
@@ -163,7 +164,7 @@ nav img {
 
   .submit {
     font-family: "Roboto Condensed", verdana, "san serif";
-    width: 25rem;
+    width: 20rem;
     font-size: 1.4rem;
     font-weight: bold;
     color: #023059;

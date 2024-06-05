@@ -98,6 +98,13 @@ nav img {
     font-weight: lighter;
   }
 
+  .cart a {
+    margin-left: 0px;
+    text-decoration: none;
+    color: lightslategray;
+    font-weight: lighter;
+  }
+
   .order-confirmed a {
     margin-left: 0px;
     text-decoration: none;
@@ -125,7 +132,7 @@ nav img {
   }
 
   .oversikt-linje {
-    width: 70%;
+    width: 95%;
   }
 
   main {
@@ -139,16 +146,7 @@ nav img {
   main legend {
     color: #012341;
     font-family: "Roboto Condensed", verdana, "san serif";
-    font-size: 2.5rem;
-  }
-
-  form {
-    color: #2c2c2c;
-    font-size: 1rem;
-    margin-top: 70px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    font-size: 2rem;
   }
 
   main img {
@@ -159,7 +157,8 @@ nav img {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 370px;
+    margin-bottom: 3rem;
   }
   legend {
     font-size: 3rem;
@@ -298,12 +297,25 @@ nav img {
   .monsen-head {
     font-size: 1.2rem;
     margin-left: 1rem;
+    margin-top: 2rem;
+  }
+
+  .summary {
+    margin-left: 1rem;
+  }
+
+  .subtotal-total {
+    margin-left: 2rem;
+  }
+
+  hr {
+    max-width: 370px;
   }
 
   .trash-order {
     font-size: 1.2rem;
     color: #012341;
-    margin-left: 20rem;
+    margin-left: 17rem;
     margin-bottom: 1rem;
   }
 
@@ -328,7 +340,7 @@ nav img {
     color: #023059;
     font-weight: bold;
     background: linear-gradient(to top, #bf6c06, #f5ca7a);
-    margin: 40px;
+    margin-bottom: 3rem;
     height: 35px;
     border-radius: 7px 7px 7px 7px;
   }
@@ -493,6 +505,7 @@ nav img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     max-width: 500px;
     max-height: 600px;
     margin-top: 70px;
@@ -513,8 +526,8 @@ nav img {
   }
 
   .monsen-product fieldset {
-    max-width: fit-content;
     margin: 3rem;
+    width: fit-content;
   }
 
   h1 {
