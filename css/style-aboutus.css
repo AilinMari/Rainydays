@@ -150,6 +150,13 @@ nav img {
     justify-content: center;
     align-items: center;
   }
+
+  .footer-content p {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #f5ca7a;
+  }
+
   footer img {
     display: none;
   }
@@ -335,6 +342,12 @@ nav img {
     font-family: "Roboto Condensed", verdana, "san serif";
     color: #ffffff;
     margin-right: 200px;
+  }
+
+  .footer-content p {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #f5ca7a;
   }
 
   footer img {

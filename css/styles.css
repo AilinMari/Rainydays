@@ -83,7 +83,6 @@ nav img {
 
 @media (max-width: 600px) {
   .pop-banner h1 {
-    /* background-color: orange; */
     background: linear-gradient(to top, #bf6c06, #f5ca7a);
     max-width: 400px;
     border-radius: 10px 10px 10px 10px;
@@ -111,7 +110,7 @@ nav img {
     max-width: 300px;
     justify-content: center;
     margin-bottom: 2rem;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 50%;
   }
 
   .read-more-box a {
@@ -184,6 +183,13 @@ nav img {
     justify-content: center;
     align-items: center;
   }
+
+  .footer-content p {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #f5ca7a;
+  }
+
   footer img {
     display: none;
   }
@@ -262,7 +268,6 @@ nav img {
     margin-top: 110px;
     flex-wrap: wrap;
   }
-  /* se om det finner kode til gradianten i figma */
 
   main div {
     display: flex;
@@ -407,6 +412,12 @@ nav img {
     font-family: "Roboto Condensed", verdana, "san serif";
     color: #ffffff;
     margin-right: 200px;
+  }
+
+  .footer-content p {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #f5ca7a;
   }
 
   footer img {

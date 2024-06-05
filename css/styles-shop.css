@@ -401,6 +401,11 @@ body {
     color: #ffffff;
     margin-right: 200px;
   }
+  .footer-content p {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #f5ca7a;
+  }
 
   footer img {
     width: 1200px;
