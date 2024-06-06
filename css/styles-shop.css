@@ -140,7 +140,7 @@ body {
     width: 100%;
     top: 0px;
     left: 0px;
-    padding: 20px 0 20px 0;
+    padding: 0px 0 20px 0;
   }
 
   .menu-icon {
@@ -164,7 +164,7 @@ body {
   nav img {
     width: 110px;
     float: left;
-    margin-top: 0px;
+    margin-bottom: -5rem;
     margin-left: 20px;
     display: flex;
   }

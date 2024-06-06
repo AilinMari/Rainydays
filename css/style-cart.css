@@ -350,7 +350,7 @@ header hr {
     width: 100%;
     top: 0px;
     left: 0px;
-    padding: 20px 0 20px 0;
+    padding: 0px 0 20px 0;
   }
 
   .menu-icon {
@@ -376,8 +376,7 @@ header hr {
   nav img {
     width: 110px;
     float: left;
-    margin-top: 0px;
-    margin-left: 20px;
+    margin-bottom: -5rem;
     display: flex;
   }
 
