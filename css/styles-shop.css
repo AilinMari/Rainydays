@@ -237,8 +237,6 @@ body {
 
   .heltind-expedition1-head {
     width: 300px;
-    margin-right: 5px;
-    margin-left: 5px;
   }
 
   .monsen3-head {
@@ -252,6 +250,7 @@ body {
     width: 200px;
     height: 100px;
     text-align: left;
+    margin-left: 20px;
   }
   .row1 h2 {
     font-size: 2em;
