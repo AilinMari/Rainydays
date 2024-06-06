@@ -259,7 +259,7 @@ nav img {
   nav img {
     width: 110px;
     float: left;
-    margin-top: 0px;
+    margin-bottom: -5rem;
     margin-left: 20px;
     display: flex;
   }
