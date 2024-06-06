@@ -143,6 +143,10 @@ header hr {
     margin-right: 10px;
   }
 
+  .oversikt-linje {
+    width: 90%;
+  }
+
   main {
     display: flex;
     justify-content: center;
