@@ -149,6 +149,12 @@ nav img {
     font-size: 2rem;
   }
 
+  h2 {
+    color: #012341;
+    font-family: "Roboto Condensed", verdana, "san serif";
+    font-size: 2rem;
+  }
+
   main img {
     max-height: 300px;
   }
@@ -526,6 +532,12 @@ nav img {
     font-weight: bold;
     display: flex;
     align-items: center;
+  }
+
+  h2 {
+    color: #012341;
+    font-family: "Roboto Condensed", verdana, "san serif";
+    font-size: 2rem;
   }
   .monsen-product {
     display: flex;
