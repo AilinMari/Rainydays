@@ -25,6 +25,13 @@ body {
     display: block;
   }
 
+  nav button {
+    border: none;
+    background-color: #475459;
+    color: #fff;
+    font-size: 1rem;
+  }
+
   .active {
     text-decoration: underline;
     text-decoration-color: #bf6c06;
@@ -141,6 +148,20 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
+  }
+
+  nav button {
+    border: none;
+    background-color: #fff;
+    font-size: 1rem;
+    color: #000;
+  }
+
+  nav button {
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
   }
 
   nav div {

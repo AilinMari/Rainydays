@@ -26,6 +26,13 @@ nav a {
   text-decoration: none;
 }
 
+nav button {
+  border: none;
+  background-color: #475459;
+  color: #fff;
+  font-size: 1rem;
+}
+
 link {
   display: inline;
   color: #000;
@@ -388,6 +395,13 @@ nav img {
     padding: 20px;
     color: #000;
     text-decoration: none;
+  }
+
+  nav button {
+    border: none;
+    background-color: #fff;
+    font-size: 1rem;
+    color: #000;
   }
 
   nav div {

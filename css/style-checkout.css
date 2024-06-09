@@ -442,7 +442,7 @@ nav img {
   }
 
   nav img {
-    max-width: 110px;
+    width: 110px;
     float: left;
     margin-bottom: -5rem;
     margin-left: 20px;
