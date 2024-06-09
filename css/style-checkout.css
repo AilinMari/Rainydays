@@ -153,6 +153,7 @@ nav img {
     color: #012341;
     font-family: "Roboto Condensed", verdana, "san serif";
     font-size: 2rem;
+    margin-left: 25px;
   }
 
   main img {
@@ -436,11 +437,12 @@ nav img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 60px;
   }
 
   nav img {
-    width: 110px;
+    max-width: 110px;
     float: left;
     margin-bottom: -5rem;
     margin-left: 20px;
@@ -538,6 +540,7 @@ nav img {
     color: #012341;
     font-family: "Roboto Condensed", verdana, "san serif";
     font-size: 2rem;
+    margin-left: 25px;
   }
   .monsen-product {
     display: flex;
@@ -736,6 +739,7 @@ nav img {
 
   .monsen-head p {
     color: #012341;
+    margin-left: 25px;
   }
 
   .submit {
@@ -767,6 +771,7 @@ nav img {
   .footer-content {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: ;
     font-family: "Roboto Condensed", verdana, "san serif";
     color: #ffffff;
     margin-right: 200px;
@@ -779,14 +784,10 @@ nav img {
   }
 
   footer img {
-    width: 1200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: top;
+    max-width: 100%;
     position: absolute;
-
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
   }
 
   .help {
@@ -843,5 +844,9 @@ nav img {
   header a {
     color: #000;
     text-decoration: none;
+  }
+
+  body {
+    object-position: center;
   }
 }

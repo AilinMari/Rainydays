@@ -210,6 +210,7 @@ nav img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 60px;
   }
 
@@ -267,12 +268,13 @@ nav img {
 
   section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     object-fit: scale-down;
   }
 
   .big-logo {
-    max-width: 400px;
+    max-width: 40%;
     height: auto;
     flex-wrap: wrap;
     margin-top: 70px;
@@ -286,8 +288,17 @@ nav img {
 
   .about-rainydays {
     display: flex;
-    margin: 70px;
-    gap: 6rem;
+    max-width: 100%;
+    gap: 4rem;
+    margin-top: 70px;
+    margin-left: 70px;
+  }
+
+  .about-rainydays img {
+    max-width: 47.5%;
+    margin-right: 70px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   h1 {
@@ -296,6 +307,7 @@ nav img {
   }
 
   .people-hiking {
+    display: flex;
     max-width: 600px;
     height: auto;
     flex-wrap: wrap;
@@ -308,16 +320,19 @@ nav img {
 
   .our-jacket-design {
     display: flex;
-    margin: 70px;
-    gap: 6rem;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+    gap: 4rem;
   }
 
   .text-about-jacket-design {
-    max-width: 600px;
+    max-width: 100%;
   }
 
   .top-ofthe-mountain {
-    max-width: 600px;
+    max-width: 47.5%;
+    margin-right: 70px;
     flex-wrap: wrap;
     object-fit: scale-down;
   }
@@ -339,6 +354,7 @@ nav img {
   .footer-content {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: ;
     font-family: "Roboto Condensed", verdana, "san serif";
     color: #ffffff;
     margin-right: 200px;
@@ -351,14 +367,10 @@ nav img {
   }
 
   footer img {
-    width: 1200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: top;
+    max-width: 100%;
     position: absolute;
-
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
   }
 
   .help {

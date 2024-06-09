@@ -181,89 +181,91 @@
 
         <fieldset>
           <legend>Payment method 3</legend>
-          <div class="contact-information"><p>Choose payment methode</p></div>
-          <div class="radio-buttons">
-            <div class="icon-card">
+          <div class="payment">
+            <div class="contact-information"><p>Choose payment methode</p></div>
+            <div class="radio-buttons">
+              <div class="icon-card">
+                <input
+                  type="radio"
+                  id="mastercard"
+                  name="method"
+                  value="mastercard"
+                />
+                <i class="fa fa-cc-mastercard"></i
+                ><label for="mastercard">Mastercard</label>
+              </div>
+              <div class="icon-card">
+                <input type="radio" id="paypal" name="method" value="paypal" />
+                <i class="fa fa-paypal"></i><label for="paypal">PayPal</label>
+              </div>
+              <div class="icon-card">
+                <input type="radio" id="visa" name="method" value="visa" />
+                <i class="fa fa-cc-visa"></i><label for="visa">Visa</label>
+              </div>
+              <br /><br />
+            </div>
+
+            <label for="card">Credit card</label>
+            <input type="tel" name="card" id="card" class="form__input" />
+            <div class="label-credit-card">
+              <label for="experation-date">Experation date</label>
+              <div class="cvv-lable"><label for="cvv">CVV</label></div>
+            </div>
+            <div class="date-cvv">
               <input
-                type="radio"
-                id="mastercard"
-                name="method"
-                value="mastercard"
+                type="text"
+                name="experation-date"
+                id="experation-date"
+                class="form__input"
+                required
               />
-              <i class="fa fa-cc-mastercard"></i
-              ><label for="mastercard">Mastercard</label>
-            </div>
-            <div class="icon-card">
-              <input type="radio" id="paypal" name="method" value="paypal" />
-              <i class="fa fa-paypal"></i><label for="paypal">PayPal</label>
-            </div>
-            <div class="icon-card">
-              <input type="radio" id="visa" name="method" value="visa" />
-              <i class="fa fa-cc-visa"></i><label for="visa">Visa</label>
-            </div>
-            <br /><br />
-          </div>
-
-          <label for="card">Credit card</label>
-          <input type="tel" name="card" id="card" class="form__input" />
-          <div class="label-credit-card">
-            <label for="experation-date">Experation date</label>
-            <div class="cvv-lable"><label for="cvv">CVV</label></div>
-          </div>
-          <div class="date-cvv">
-            <input
-              type="text"
-              name="experation-date"
-              id="experation-date"
-              class="form__input"
-              required
-            />
-            <div class="cvv-lable1"><label for="cvv">CVV</label></div>
-            <input
-              type="tel"
-              name="cvv"
-              id="cvv"
-              class="form_city_input"
-              required
-            />
-          </div>
-
-          <div class="pyntelinje">
-            <hr />
-          </div>
-
-          <h2>Order summary 4</h2>
-          <div class="summary">
-            <div class="monsen-head">
-              <p>1X Monsen</p>
-              <p>-lightweight rain jacket<br />Size: M<br />red/black</p>
-              <div class="trash-order"><i class="fas fa-trash"></i></div>
-            </div>
-          </div>
-
-          <div class="pyntelinje">
-            <hr />
-          </div>
-
-          <div class="subtotal-total">
-            <div class="subtotal-price">
-              <div class="subtotal"><p>Subtotal</p></div>
-              <div class="price"><p>1399,-</p></div>
-            </div>
-            <div class="free-cost">
-              <div class="subtotal"><p>Shipping</p></div>
-              <div class="free"><p>FREE</p></div>
+              <div class="cvv-lable1"><label for="cvv">CVV</label></div>
+              <input
+                type="tel"
+                name="cvv"
+                id="cvv"
+                class="form_city_input"
+                required
+              />
             </div>
 
-            <div class="total">
-              <div class="subtotal"><p>Total</p></div>
-              <div class="calculated"><p>1399,-</p></div>
+            <div class="pyntelinje">
+              <hr />
             </div>
-          </div>
-          <div class="submit-button">
-            <a href="orderconfirmed.html"
-              ><input type="submit" value="PAY NOW" class="submit"
-            /></a>
+
+            <h2>Order summary 4</h2>
+            <div class="summary">
+              <div class="monsen-head">
+                <p>1X Monsen</p>
+                <p>-lightweight rain jacket<br />Size: M<br />red/black</p>
+                <div class="trash-order"><i class="fas fa-trash"></i></div>
+              </div>
+            </div>
+
+            <div class="pyntelinje">
+              <hr />
+            </div>
+
+            <div class="subtotal-total">
+              <div class="subtotal-price">
+                <div class="subtotal"><p>Subtotal</p></div>
+                <div class="price"><p>1399,-</p></div>
+              </div>
+              <div class="free-cost">
+                <div class="subtotal"><p>Shipping</p></div>
+                <div class="free"><p>FREE</p></div>
+              </div>
+
+              <div class="total">
+                <div class="subtotal"><p>Total</p></div>
+                <div class="calculated"><p>1399,-</p></div>
+              </div>
+            </div>
+            <div class="submit-button">
+              <a href="orderconfirmed.html"
+                ><input type="submit" value="PAY NOW" class="submit"
+              /></a>
+            </div>
           </div>
         </fieldset>
       </form>
@@ -272,7 +274,7 @@
     <footer>
       <div class="footer-logo">
         <img
-          src="images/RainyDays_Logo.png"
+          src="images/RainyDays_Logo-top.png"
           alt="the Rainydays logo"
           class="logon"
         />

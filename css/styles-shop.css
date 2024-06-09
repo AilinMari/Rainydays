@@ -52,24 +52,12 @@ body {
     display: none;
   }
 
-  .banner-image {
-    height: 500px;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-
   nav img {
     width: 110px;
     float: inline-start;
     margin-top: 20px;
     margin-left: 20px;
     display: none;
-  }
-
-  .monsen3-head h2 {
-    text-decoration: underline;
-    text-decoration-color: #f5ca7a;
   }
 
   .reverse {
@@ -96,6 +84,7 @@ body {
   .head-info h2 {
     text-decoration: underline;
     text-decoration-color: #f5ca7a;
+    color: #fff;
   }
 
   .home a {
@@ -158,6 +147,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 60px;
   }
 
@@ -396,10 +386,12 @@ body {
   .footer-content {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: ;
     font-family: "Roboto Condensed", verdana, "san serif";
     color: #ffffff;
     margin-right: 200px;
   }
+
   .footer-content p {
     color: #fff;
     text-decoration: underline;
@@ -407,14 +399,10 @@ body {
   }
 
   footer img {
-    width: 1200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: top;
+    max-width: 100%;
     position: absolute;
-
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
   }
 
   .help {

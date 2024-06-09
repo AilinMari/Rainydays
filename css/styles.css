@@ -74,7 +74,7 @@ nav,
 }
 
 nav img {
-  width: 110px;
+  max-width: 110px;
   float: inline-start;
   margin-top: 20px;
   margin-left: 20px;
@@ -114,10 +114,6 @@ nav img {
   }
 
   .read-more-box a {
-    color: #fff;
-    text-decoration: underline;
-  }
-  .read-more-box {
     color: #fff;
     text-decoration: underline;
   }
@@ -170,6 +166,7 @@ nav img {
     max-width: 600px;
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     padding: 30px;
     flex-direction: column-reverse;
     font-family: "Roboto Condensed", verdana, "san serif";
@@ -182,6 +179,7 @@ nav img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   .footer-content p {
@@ -243,11 +241,12 @@ nav img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 60px;
   }
 
   nav img {
-    width: 110px;
+    max-width: 110px;
     margin-bottom: -5rem;
     margin-left: 20px;
     display: flex;
@@ -279,6 +278,7 @@ nav img {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    flex-wrap: wrap;
   }
 
   .row2 {
@@ -288,18 +288,15 @@ nav img {
     border-radius: 10px 10px 10px 10px;
     margin-top: 40px;
     margin-bottom: 70px;
-    flex: 2;
   }
 
   .image-row2 img {
-    height: 320px;
-    width: auto;
+    max-width: 250px;
     border-radius: 50%;
   }
 
   .monsen3 {
-    height: 310px;
-    width: auto;
+    max-width: 260px;
     border-radius: 50%;
   }
 
@@ -332,6 +329,8 @@ nav img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
   }
 
   section a {
@@ -341,6 +340,7 @@ nav img {
   .read-more-box {
     color: #fff;
     text-decoration: underline;
+    margin-bottom: -3.5rem;
   }
 
   .pyntelinje hr {
@@ -378,24 +378,31 @@ nav img {
   .theme-photos {
     margin-top: 70px;
     margin-bottom: 100px;
+    max-height: 400px;
+    max-width: 100%;
   }
 
   .doggo-image {
-    height: 400px;
-    width: 400px;
-    object-fit: cover;
+    max-width: 33%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .mountain-hike {
-    height: 400px;
-    width: 400px;
+    max-width: 33%;
+    max-height: auto;
     object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .sitting-rock {
-    height: 400px;
-    width: 400px;
+    max-width: 33%;
+    max-height: auto;
     object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   footer {
@@ -409,6 +416,7 @@ nav img {
   .footer-content {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
     font-family: "Roboto Condensed", verdana, "san serif";
     color: #ffffff;
     margin-right: 200px;
@@ -421,13 +429,10 @@ nav img {
   }
 
   footer img {
-    width: 1200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: top;
+    max-width: 100%;
     position: absolute;
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
   }
 
   .help {

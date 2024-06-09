@@ -253,6 +253,7 @@ nav img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 60px;
   }
 
@@ -374,6 +375,7 @@ nav img {
   .footer-content {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: ;
     font-family: "Roboto Condensed", verdana, "san serif";
     color: #ffffff;
     margin-right: 200px;
@@ -386,14 +388,10 @@ nav img {
   }
 
   footer img {
-    width: 1200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: top;
+    max-width: 100%;
     position: absolute;
-
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
   }
 
   .help {
@@ -450,5 +448,9 @@ nav img {
   header a {
     color: #000;
     text-decoration: none;
+  }
+
+  body {
+    object-position: center;
   }
 }
